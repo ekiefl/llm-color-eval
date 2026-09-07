@@ -15,7 +15,7 @@ from color_guesser.metrics import delta_e, dialed_score
 from color_guesser.models import ColorSample
 from color_guesser.runner import guess_batch
 from color_guesser.runner import run_batch as run_batch_async
-from color_guesser.sampler import sample_stratified, sample_uniform
+from color_guesser.sampler import sample_halton, sample_stratified, sample_uniform
 
 load_dotenv()
 
@@ -81,6 +81,93 @@ def generate_stratified(
         output: Path of the JSONL file to write.
     """
     write_dataset(sample_stratified(hue_steps, lightness_steps, saturation_steps), output)
+
+
+@app.command()
+def generate_halton(n: int = 1000, output: Path = Path("data/halton.jsonl")) -> None:
+    """Generate a dataset evenly spread across the HSB slider space.
+
+    The sample is prefix-stable: regenerating with a larger n keeps the
+    first colors identical, so existing trials on them stay valid.
+
+    Args:
+        n: Number of colors to sample.
+        output: Path of the JSONL file to write.
+    """
+    write_dataset(sample_halton(n), output)
+
+
+@app.command()
+def run_replicates(
+    dataset: Path,
+    replicates: int = 3,
+    describer: str = "anthropic:claude-sonnet-5",
+    guesser: str = "anthropic:claude-sonnet-5",
+    max_words: int = 5,
+    seed: int = 0,
+    effort: str = "",
+    base_url: str = GROQ_BASE_URL,
+    api_key_env: str = "GROQ_KEY",
+    db_path: Path = Path("data/results.db"),
+    concurrency: int = 3,
+    pace: float = 2.5,
+) -> None:
+    """Top up every dataset color to a target replicate count.
+
+    Existing trials per color for this describer and word budget are counted
+    and only the missing replicates run, so the command is idempotent:
+    re-running after a crash, or after growing the dataset, does only the
+    remaining work.
+
+    Args:
+        dataset: JSONL dataset of colors, as written by the generate commands.
+        replicates: Target number of trials per color.
+        describer: Model that writes the descriptions.
+        guesser: Model that guesses colors from the descriptions.
+        max_words: Word budget for descriptions.
+        seed: Sampling seed for every call.
+        effort: Reasoning effort for every call; empty leaves the endpoint's default.
+        base_url: Base URL of an OpenAI-compatible endpoint; empty means local Ollama.
+        api_key_env: Name of the environment variable holding the endpoint's API key.
+        db_path: Path of the SQLite database trials are recorded in.
+        concurrency: Maximum number of colors in flight at once.
+        pace: Seconds between trial starts, for staying below per-minute rate limits.
+    """
+    hex_codes = list(dict.fromkeys(read_dataset(dataset)))
+    conn = connect(db_path)
+    existing = dict(
+        conn.execute(
+            "SELECT hex_code, count(*) FROM descriptions"
+            " WHERE describer = ? AND max_words = ? GROUP BY hex_code",
+            (describer, max_words),
+        ).fetchall()
+    )
+    work = []
+    for hex_code in hex_codes:
+        work.extend([hex_code] * max(0, replicates - existing.get(hex_code, 0)))
+    typer.echo(f"colors: {len(hex_codes)}, trials to run: {len(work)}")
+    if not work:
+        conn.close()
+        return
+    describer_agent = build_describer(resolve_model(describer, base_url, api_key_env), max_words)
+    guesser_agent = build_guesser(resolve_model(guesser, base_url, api_key_env))
+    results = asyncio.run(
+        run_batch_async(
+            conn,
+            describer_agent,
+            guesser_agent,
+            describer,
+            guesser,
+            work,
+            max_words,
+            seed,
+            effort,
+            concurrency,
+            pace,
+        )
+    )
+    conn.close()
+    echo_summary(results)
 
 
 @app.command()
@@ -187,15 +274,15 @@ def echo_summary(results: list) -> None:
 
 @app.command()
 def export_widget(
-    db_path: Path = Path("data/scan72.db"),
-    n: int = 90,
+    db_path: Path = Path("data/halton_sonnet.db"),
+    n: int = 150,
     output: Path = Path("docs/trials.json"),
 ) -> None:
-    """Export a balanced sample of multi-guesser trials for the web widget.
+    """Export a balanced sample of trials for the web widget.
 
-    Picks descriptions that were guessed by at least two models, spreads the
-    sample evenly across the difficulty range, and writes them as JSON for
-    the GitHub Pages game.
+    Each exported trial is one described-and-guessed color. The sample is
+    spread evenly across the difficulty range, with each color appearing at
+    most once, and written as JSON for the GitHub Pages game.
 
     Args:
         db_path: Path of the SQLite database holding descriptions and guesses.
@@ -205,8 +292,7 @@ def export_widget(
     conn = connect(db_path)
     rows = conn.execute(
         "SELECT d.id, d.hex_code, d.text, d.max_words, d.describer FROM descriptions d"
-        " WHERE (SELECT COUNT(DISTINCT g.guesser) FROM guesses g"
-        "        WHERE g.description_id = d.id) >= 2 ORDER BY d.id"
+        " WHERE EXISTS (SELECT 1 FROM guesses g WHERE g.description_id = d.id) ORDER BY d.id"
     ).fetchall()
     trials = []
     for description_id, hex_code, text, max_words, describer in rows:
@@ -230,8 +316,14 @@ def export_widget(
         )
     conn.close()
     trials.sort(key=lambda trial: trial["difficulty"])
-    step = len(trials) / min(n, len(trials))
-    sampled = [trials[int(i * step)] for i in range(min(n, len(trials)))]
+    seen = set()
+    unique = []
+    for trial in trials:
+        if trial["hex"] not in seen:
+            seen.add(trial["hex"])
+            unique.append(trial)
+    step = len(unique) / min(n, len(unique))
+    sampled = [unique[int(i * step)] for i in range(min(n, len(unique)))]
     for trial in sampled:
         del trial["difficulty"]
     random.Random(0).shuffle(sampled)

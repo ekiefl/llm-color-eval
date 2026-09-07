@@ -1,1441 +1,1801 @@
 [
  {
-  "hex": "#156a15",
-  "description": "Deep, dark forest green.",
+  "hex": "#779716",
+  "description": "Muted olive green",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#013220",
-    "score": 5.52
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#0b3d0b",
-    "score": 7.75
-   }
-  }
- },
- {
-  "hex": "#7f55aa",
-  "description": "Soft muted violet hue.",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#bfa3c9",
-    "score": 5.51
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8a7ca8",
-    "score": 7.61
-   }
-  }
- },
- {
-  "hex": "#d4aad4",
-  "description": "Pale lavender with pink undertones",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#e6d4e8",
-    "score": 7.8
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#e6d5ea",
-    "score": 7.72
-   }
-  }
- },
- {
-  "hex": "#2b4055",
-  "description": "Deep charcoal blue.",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#0b1a33",
-    "score": 7.92
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#2c3539",
-    "score": 8.63
-   }
-  }
- },
- {
-  "hex": "#6a156a",
-  "description": "Deep, muted purple.",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#5a4e7a",
-    "score": 6.58
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4b0082",
-    "score": 8.08
-   }
-  }
- },
- {
-  "hex": "#ea95bf",
-  "description": "Soft pastel pink.",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#ffd1dc",
-    "score": 7.2
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#f7cac9",
-    "score": 6.47
-   }
-  }
- },
- {
-  "hex": "#55aa55",
-  "description": "Bright, fresh green with a balanced, leafy hue, reminiscent of new grass.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#7cfc00",
-    "score": 5.4
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4caf50",
-    "score": 9.85
-   }
-  }
- },
- {
-  "hex": "#95ea95",
-  "description": "Soft, fresh green, reminiscent of mint leaves and new spring foliage.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#98ff98",
-    "score": 9.47
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#98d8aa",
-    "score": 8.66
-   }
-  }
- },
- {
-  "hex": "#55402b",
-  "description": "Deep warm brown.",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#8b4000",
-    "score": 7.47
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4b2e1f",
-    "score": 8.91
-   }
-  }
- },
- {
-  "hex": "#d4802b",
-  "description": "A rich, warm amber like fallen autumn leaves.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#d4a017",
-    "score": 7.47
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#c97a2b",
-    "score": 9.78
-   }
-  }
- },
- {
-  "hex": "#ea9595",
-  "description": "Soft muted pink.",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#f2c2c2",
-    "score": 8.2
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#d8a7b1",
-    "score": 8.59
-   }
-  }
- },
- {
-  "hex": "#95ea95",
-  "description": "A fresh, soft mint green with subtle lightness and gentle brightness.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#c4e7b6",
-    "score": 8.42
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#98ff98",
-    "score": 9.47
-   }
-  }
- },
- {
-  "hex": "#aa8055",
-  "description": "Warm, earthy terracotta with muted orange hints, resembling sunlit, sandy dunes.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#d4a77c",
-    "score": 8.13
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#c97d4a",
-    "score": 8.79
-   }
-  }
- },
- {
-  "hex": "#80aa55",
-  "description": "Soft, earthy green with gentle yellow hints, like fresh grass.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#9dbb70",
-    "score": 9.2
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8db170",
-    "score": 9.49
-   }
-  }
- },
- {
-  "hex": "#552b55",
-  "description": "Deep, muted mauve with a touch of gray.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#8c6a8b",
-    "score": 6.76
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8b6f72",
-    "score": 4.87
-   }
-  }
- },
- {
-  "hex": "#bfaad4",
-  "description": "Soft, light purple with a hint of pink, reminiscent of lavender.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#e6e6fa",
-    "score": 6.57
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#c8a2c8",
-    "score": 9.22
-   }
-  }
- },
- {
-  "hex": "#552b2b",
-  "description": "Deep reddish brown.",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#8b2500",
-    "score": 6.76
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5c4033",
-    "score": 8.27
-   }
-  }
- },
- {
-  "hex": "#d42b80",
-  "description": "Vibrant, warm coral pink with a hint of deep rose.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#ff6f61",
-    "score": 4.89
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#e8567d",
-    "score": 8.12
-   }
-  }
- },
- {
-  "hex": "#9595ea",
-  "description": "Soft blue with a hint of violet, like twilight\u2019s gentle, luminous glow.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#9b8eab",
-    "score": 6.89
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8080d0",
-    "score": 9.07
-   }
-  }
- },
- {
-  "hex": "#402b55",
-  "description": "Deep, muted violet reminiscent of twilight lavender.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#6e5d8e",
-    "score": 7.18
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4b3c5e",
-    "score": 9.32
-   }
-  }
- },
- {
-  "hex": "#6a1540",
-  "description": "Deep, rich burgundy wine hue.",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#800020",
-    "score": 7.53
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#800020",
-    "score": 7.53
-   }
-  }
- },
- {
-  "hex": "#bfaad4",
-  "description": "Soft lavender hue with muted pink undertones.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#e8c9d9",
-    "score": 7.48
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#c8a2c8",
-    "score": 9.22
-   }
-  }
- },
- {
-  "hex": "#d42b80",
-  "description": "Vivid hot pink.",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#ff69b4",
-    "score": 7.58
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#ff69b4",
-    "score": 7.58
-   }
-  }
- },
- {
-  "hex": "#aad4d4",
-  "description": "Soft turquoise, pale teal, light mint, soothing, gentle.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#a7d8e5",
-    "score": 9.28
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#afeeee",
-    "score": 9.1
-   }
-  }
- },
- {
-  "hex": "#bfaad4",
-  "description": "Soft muted lavender hue.",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#b497bd",
-    "score": 9.16
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#b39eb5",
-    "score": 8.8
-   }
-  }
- },
- {
-  "hex": "#156a6a",
-  "description": "Muted dark teal, greenish blue.",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#305b5c",
-    "score": 9.13
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#3b6e6e",
-    "score": 9.52
-   }
-  }
- },
- {
-  "hex": "#95eaea",
-  "description": "soft cool turquoise pastel light",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#afeeee",
-    "score": 9.65
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#a0e0d8",
-    "score": 9.5
-   }
-  }
- },
- {
-  "hex": "#156a6a",
-  "description": "A deep, muted teal, like a twilight sea\u2014subtle yet rich and soothing.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#004c4f",
-    "score": 8.55
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#1f4c4c",
-    "score": 8.49
-   }
-  }
- },
- {
-  "hex": "#d42bd4",
-  "description": "Bold, bright magenta-purple, reminiscent of a rose's vivid hue.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#ff007f",
-    "score": 6.17
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#c71585",
-    "score": 7.34
-   }
-  }
- },
- {
-  "hex": "#95bfea",
-  "description": "Soft sky\u2011blue, light, airy, reminiscent of a calm summer morning.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#87ceeb",
-    "score": 8.59
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#87ceeb",
-    "score": 8.59
-   }
-  }
- },
- {
-  "hex": "#2b7fd4",
-  "description": "Bright blue with teal undertones",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#00a8c8",
-    "score": 6.1
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#00b4d8",
-    "score": 5.82
-   }
-  }
- },
- {
-  "hex": "#9595ea",
-  "description": "Muted lavender blue.",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#9fa9c5",
-    "score": 8.15
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8a8fbf",
-    "score": 9.01
-   }
-  }
- },
- {
-  "hex": "#d42bd4",
-  "description": "Vivid electric magenta hue.",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#ff00ff",
-    "score": 8.87
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#ff00ff",
-    "score": 8.87
-   }
-  }
- },
- {
-  "hex": "#15156a",
-  "description": "Deep indigo, almost navy blue.",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#03045e",
-    "score": 9.58
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#1f1f4d",
-    "score": 8.93
-   }
-  }
- },
- {
-  "hex": "#402b55",
-  "description": "Deep, muted purple with subtle brown undertones, rich like a dark plum.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#6b2e44",
-    "score": 6.56
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4b2e3c",
-    "score": 7.56
-   }
-  }
- },
- {
-  "hex": "#d4aabf",
-  "description": "Soft, muted pinkish\u2011purple hue with gentle, warm undertones.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#dab6c4",
-    "score": 9.56
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#c58f9d",
-    "score": 8.67
-   }
-  }
- },
- {
-  "hex": "#5555aa",
-  "description": "Muted blue with gray undertone.",
-  "budget": 5,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#7b8ba2",
-    "score": 5.95
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#6e7f8d",
+    "hex": "#6b6b3a",
     "score": 6.68
    }
   }
  },
  {
-  "hex": "#d4aaaa",
-  "description": "soft dusty rose",
+  "hex": "#73864c",
+  "description": "Muted, dark olive green.",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#d8b6a8",
-    "score": 8.77
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#c9a0a0",
-    "score": 9.72
+    "hex": "#5c5f3d",
+    "score": 7.32
    }
   }
  },
  {
-  "hex": "#80aa55",
-  "description": "Soft muted sage green.",
+  "hex": "#a53491",
+  "description": "Deep magenta-pink, rich raspberry hue",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#9aafa7",
-    "score": 5.71
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#9caf88",
-    "score": 8.45
+    "hex": "#8b2252",
+    "score": 7.4
    }
   }
  },
  {
-  "hex": "#bf95ea",
-  "description": "Light, soft purple with pink undertones, like a gentle lavender bloom.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#e7c3e9",
-    "score": 6.86
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#d8a7d8",
-    "score": 8.03
-   }
-  }
- },
- {
-  "hex": "#95bfea",
-  "description": "Soft pastel sky blue.",
+  "hex": "#bccf6e",
+  "description": "Muted yellow-green, light olive shade",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#b6dde3",
-    "score": 7.03
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#87ceeb",
-    "score": 8.59
+    "hex": "#b5b35c",
+    "score": 8.75
    }
   }
  },
  {
-  "hex": "#d4d42b",
-  "description": "Bright, warm yellow, like fresh lemon peel with a subtle green tint.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
+  "hex": "#5156c0",
+  "description": "Medium slate blue, bold purple-blue",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#d8e300",
-    "score": 9.57
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#f5e216",
-    "score": 9.19
+    "hex": "#7b68ee",
+    "score": 8.2
    }
   }
  },
  {
-  "hex": "#55aa55",
-  "description": "A fresh, medium green with a subtle blue undertone, like ripe apple leaves.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
+  "hex": "#722b53",
+  "description": "Deep dark plum purple",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#4ea664",
-    "score": 9.54
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#4caf50",
-    "score": 9.85
+    "hex": "#4b0082",
+    "score": 5.97
    }
   }
  },
  {
-  "hex": "#15406a",
-  "description": "Deep muted navy blue, with a hint of cool gray.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
+  "hex": "#2d1ecc",
+  "description": "Deep vivid blue-violet, richly saturated",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#1e2b3c",
-    "score": 8.46
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#2c3e50",
+    "hex": "#4b0082",
+    "score": 7.72
+   }
+  }
+ },
+ {
+  "hex": "#907eb5",
+  "description": "Muted medium purple, slightly grayish",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b7b9b",
     "score": 9.04
    }
   }
  },
  {
-  "hex": "#d4d4aa",
-  "description": "soft muted yellowish\u2011green hue, subtle.",
+  "hex": "#5d7395",
+  "description": "Muted slate blue-gray",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#c3d28f",
-    "score": 8.97
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#b5c689",
-    "score": 8.72
+    "hex": "#6e7f8d",
+    "score": 8.67
    }
   }
  },
  {
-  "hex": "#d4aabf",
-  "description": "Pastel mauve with pink undertones.",
+  "hex": "#819461",
+  "description": "Muted, grayish olive green.",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#e6cfe0",
-    "score": 8.24
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#d8a7b1",
-    "score": 9.4
+    "hex": "#6b6b4f",
+    "score": 6.75
    }
   }
  },
  {
-  "hex": "#d4802b",
-  "description": "warm earthy orange\u2011brown.",
+  "hex": "#317a1b",
+  "description": "Deep mossy forest green",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#a0522d",
-    "score": 6.62
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#b5651d",
-    "score": 8.56
+    "hex": "#355e3b",
+    "score": 7.25
    }
   }
  },
  {
-  "hex": "#55402b",
-  "description": "Deep, warm brown reminiscent of toasted cocoa, earthy with a subtle amber glow.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
+  "hex": "#7aabce",
+  "description": "Soft muted sky blue",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#8c5a3c",
-    "score": 7.62
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#6f4e37",
-    "score": 9.01
+    "hex": "#87ceeb",
+    "score": 8.46
    }
   }
  },
  {
-  "hex": "#aa5555",
-  "description": "Muted dusty red.",
+  "hex": "#a84aad",
+  "description": "Deep purple with magenta undertones",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#a86a6a",
-    "score": 9.13
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#b25555",
-    "score": 9.88
+    "hex": "#5d1f8a",
+    "score": 6.39
    }
   }
  },
  {
-  "hex": "#552b55",
-  "description": "Rich muted mauve shade.",
+  "hex": "#cbb078",
+  "description": "Warm muted golden tan",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#9c7b86",
-    "score": 4.46
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#997080",
+    "hex": "#c9a66b",
+    "score": 9.67
+   }
+  }
+ },
+ {
+  "hex": "#899317",
+  "description": "Dark olive-green with yellow undertones.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#556b2f",
+    "score": 6.51
+   }
+  }
+ },
+ {
+  "hex": "#a1453e",
+  "description": "Deep muted brick red, earthy",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b3a2b",
+    "score": 9.2
+   }
+  }
+ },
+ {
+  "hex": "#4d25a9",
+  "description": "Deep violet purple, vivid",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#5d0080",
+    "score": 8.36
+   }
+  }
+ },
+ {
+  "hex": "#753681",
+  "description": "Deep muted magenta-purple.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b3a62",
+    "score": 7.54
+   }
+  }
+ },
+ {
+  "hex": "#3941b2",
+  "description": "Deep vivid indigo-blue",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b0082",
+    "score": 6.85
+   }
+  }
+ },
+ {
+  "hex": "#44e4b6",
+  "description": "**Bright vibrant minty teal**",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#1fcea0",
+    "score": 9.36
+   }
+  }
+ },
+ {
+  "hex": "#6835a3",
+  "description": "Rich medium purple, slightly violet",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a2be2",
+    "score": 8.57
+   }
+  }
+ },
+ {
+  "hex": "#a31f7b",
+  "description": "Deep magenta purple, vivid",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b008b",
+    "score": 8.58
+   }
+  }
+ },
+ {
+  "hex": "#372a86",
+  "description": "Deep indigo purple, dark violet-blue.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b0082",
+    "score": 8.53
+   }
+  }
+ },
+ {
+  "hex": "#663995",
+  "description": "Muted purple with grayish undertone",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a7a8c",
     "score": 5.02
    }
   }
  },
  {
-  "hex": "#15156a",
-  "description": "Deep indigo, like a quiet midnight sky, with subtle purple undertones.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#1a1b4e",
-    "score": 9.16
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#2e1a47",
-    "score": 8.06
-   }
-  }
- },
- {
-  "hex": "#aa55aa",
-  "description": "Soft, muted mauve\u2014a warm light purple with a gentle pink undertone.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#e2b2d1",
-    "score": 5.08
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#b784a7",
-    "score": 7.12
-   }
-  }
- },
- {
-  "hex": "#d4aaaa",
-  "description": "Light, warm roseish beige, soft pastel with gentle blush.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#f6e5d5",
-    "score": 6.24
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#e8c8b8",
-    "score": 7.98
-   }
-  }
- },
- {
-  "hex": "#2b5555",
-  "description": "deep, muted teal reminiscent of stormy sea, with earthy undertones.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#3a5f54",
-    "score": 9.08
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#2f4f4f",
-    "score": 9.76
-   }
-  }
- },
- {
-  "hex": "#95bfea",
-  "description": "Soft pastel sky blue.",
+  "hex": "#cf96de",
+  "description": "Soft, pale lavender-purple pastel.",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#b0e0e6",
-    "score": 6.82
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#87ceeb",
-    "score": 8.59
+    "hex": "#d8bfd8",
+    "score": 7.42
    }
   }
  },
  {
-  "hex": "#55aa80",
-  "description": "A balanced teal with green dominance, gentle, muted, earthy tone.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#7c9a75",
-    "score": 8.11
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4a8a7f",
-    "score": 7.45
-   }
-  }
- },
- {
-  "hex": "#aad4aa",
-  "description": "Soft pastel mint green.",
+  "hex": "#933719",
+  "description": "Deep muted brownish red wine",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#cff0e5",
-    "score": 7.47
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#aaf0d1",
-    "score": 8.38
+    "hex": "#5c2028",
+    "score": 6.33
    }
   }
  },
  {
-  "hex": "#6a1515",
-  "description": "Deep burgundy, almost black.",
+  "hex": "#4f1767",
+  "description": "Deep dark purple, almost eggplant",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#3b0b1e",
-    "score": 6.78
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#2e0a12",
+    "hex": "#3f1f3f",
+    "score": 8.09
+   }
+  }
+ },
+ {
+  "hex": "#639b4e",
+  "description": "Muted olive-green, medium brightness",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7d8b4c",
+    "score": 8.29
+   }
+  }
+ },
+ {
+  "hex": "#52722d",
+  "description": "Deep warm brown, chocolate-like.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#3c1f0f",
+    "score": 3.45
+   }
+  }
+ },
+ {
+  "hex": "#822261",
+  "description": "Deep purple, dark violet-magenta hue",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b0082",
+    "score": 6.28
+   }
+  }
+ },
+ {
+  "hex": "#a34cc1",
+  "description": "Vivid purple, medium-bright, saturated violet",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8f00ff",
+    "score": 8.02
+   }
+  }
+ },
+ {
+  "hex": "#712819",
+  "description": "Deep reddish-brown, like rust.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b7410e",
     "score": 7.22
    }
   }
  },
  {
-  "hex": "#d4d4aa",
-  "description": "Soft, warm pale yellow with subtle gray undertone.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#f7e6c0",
-    "score": 8.56
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#e8e0c8",
-    "score": 8.74
-   }
-  }
- },
- {
-  "hex": "#5555aa",
-  "description": "Muted blue with a hint of gray, like a soft indigo twilight.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#5b6e8c",
-    "score": 8.07
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5c6e91",
-    "score": 8.2
-   }
-  }
- },
- {
-  "hex": "#aad4aa",
-  "description": "Soft, muted green reminiscent of fresh grass with subtle lime undertones.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#c5e2a4",
-    "score": 8.76
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8dbc8d",
-    "score": 9.06
-   }
-  }
- },
- {
-  "hex": "#15406a",
-  "description": "deep navy blue",
+  "hex": "#56723f",
+  "description": "Muted olive brown, earthy",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#000033",
-    "score": 6.15
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#1b2a4a",
-    "score": 8.6
+    "hex": "#6b5b35",
+    "score": 6.46
    }
   }
  },
  {
-  "hex": "#95bfea",
-  "description": "Light sky blue.",
+  "hex": "#6ac8b8",
+  "description": "Soft teal with muted green",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#87cefa",
-    "score": 9.17
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#87cefa",
-    "score": 9.17
+    "hex": "#5f9e93",
+    "score": 8.23
    }
   }
  },
  {
-  "hex": "#d42b2b",
-  "description": "Bold crimson, like a ripe tomato or deep wine, rich, intense, unmistakably vivid.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#dc143c",
-    "score": 9.2
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#dc143c",
-    "score": 9.2
-   }
-  }
- },
- {
-  "hex": "#d4aaaa",
-  "description": "Pale dusty rose with warm undertones.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#f7c5b5",
-    "score": 8.37
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#d9a9a0",
-    "score": 9.55
-   }
-  }
- },
- {
-  "hex": "#d4aaaa",
-  "description": "Soft warm blush hue.",
+  "hex": "#3add47",
+  "description": "Bright grass green, medium brightness",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#ffb6c1",
-    "score": 8.56
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#f4c2c2",
-    "score": 9.02
+    "hex": "#4caf50",
+    "score": 8.11
    }
   }
  },
  {
-  "hex": "#2bd480",
-  "description": "Bright, refreshing mint green with a subtle turquoise undertone.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#9bf7c0",
-    "score": 8.09
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#3eb489",
-    "score": 8.33
-   }
-  }
- },
- {
-  "hex": "#55aaaa",
-  "description": "Soft teal with a hint of green, like light seafoam on a calm shore.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#b2e2c8",
-    "score": 6.02
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8fd8c4",
-    "score": 7.37
-   }
-  }
- },
- {
-  "hex": "#40552b",
-  "description": "Deep, muted olive reminiscent of a forest floor after rain.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#5a6f42",
-    "score": 8.69
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4a5320",
-    "score": 9.31
-   }
-  }
- },
- {
-  "hex": "#ea95bf",
-  "description": "Soft bright pinkish rose.",
+  "hex": "#cc6c81",
+  "description": "Dusty rose pink, medium tone",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#ff6c85",
-    "score": 7.32
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#f589a3",
-    "score": 8.84
+    "hex": "#c08081",
+    "score": 8.83
    }
   }
  },
  {
-  "hex": "#95ea95",
-  "description": "Soft pastel mint green.",
+  "hex": "#e5b362",
+  "description": "Warm golden tan, moderately light.",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#a8e6cf",
-    "score": 7.05
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#aaf0d1",
-    "score": 7.53
+    "hex": "#d2a679",
+    "score": 8.8
    }
   }
  },
  {
-  "hex": "#6a1515",
-  "description": "A deep, muted maroon, reminiscent of dried blood or rich berry jam.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
+  "hex": "#4c8490",
+  "description": "Muted slate blue-green",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#5c0000",
-    "score": 9.58
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#5c1f2e",
+    "hex": "#5f7a7a",
+    "score": 8.92
+   }
+  }
+ },
+ {
+  "hex": "#c88c74",
+  "description": "Dusty muted terracotta brown",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#a0654d",
+    "score": 7.87
+   }
+  }
+ },
+ {
+  "hex": "#67c8d1",
+  "description": "Soft medium teal, sky-tinted",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#5fa8a0",
     "score": 8.19
    }
   }
  },
  {
-  "hex": "#d4d42b",
-  "description": "Bright, sunny mustard yellow.",
+  "hex": "#957168",
+  "description": "Muted dark grayish purple-brown",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#ffdb58",
-    "score": 8.42
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#e1ad01",
-    "score": 7.26
+    "hex": "#5a4d53",
+    "score": 6.18
    }
   }
  },
  {
-  "hex": "#d4802b",
-  "description": "Warm amber with golden hue.",
+  "hex": "#9b3ccc",
+  "description": "Vivid purple with blue undertone",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#ffaa00",
-    "score": 7.57
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#ffbf00",
-    "score": 6.32
+    "hex": "#7f00ff",
+    "score": 8.55
    }
   }
  },
  {
-  "hex": "#aad4d4",
-  "description": "soft, pale turquoise hue",
+  "hex": "#2ba2d8",
+  "description": "Bright sky blue, medium saturation",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#afeeee",
-    "score": 9.1
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#afeeee",
-    "score": 9.1
+    "hex": "#4a9fe0",
+    "score": 9.41
    }
   }
  },
  {
-  "hex": "#7f55aa",
-  "description": "A muted purple with subtle blue undertones.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
+  "hex": "#6a1119",
+  "description": "Deep dark maroon-red, blackish wine",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#8e6e99",
-    "score": 8.0
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#8878a8",
-    "score": 7.93
+    "hex": "#3b0f0f",
+    "score": 8.41
    }
   }
  },
  {
-  "hex": "#5555aa",
-  "description": "Muted blue, slightly purplish.",
+  "hex": "#148272",
+  "description": "Dark teal with green undertones.",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#6a7da6",
-    "score": 7.35
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#6e7fa3",
+    "hex": "#004d4d",
+    "score": 6.9
+   }
+  }
+ },
+ {
+  "hex": "#7e5c50",
+  "description": "Muted grayish brown, warm taupe",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b7d6b",
+    "score": 7.18
+   }
+  }
+ },
+ {
+  "hex": "#4a596d",
+  "description": "Muted slate blue-gray",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6e7f8d",
+    "score": 7.56
+   }
+  }
+ },
+ {
+  "hex": "#178740",
+  "description": "Deep emerald green",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#046307",
+    "score": 7.52
+   }
+  }
+ },
+ {
+  "hex": "#83a754",
+  "description": "Muted, medium olive green.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6b6b3a",
+    "score": 5.57
+   }
+  }
+ },
+ {
+  "hex": "#5ccaae",
+  "description": "Soft teal green, seafoam-like.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#93e9be",
+    "score": 8.43
+   }
+  }
+ },
+ {
+  "hex": "#845293",
+  "description": "Muted, dusty medium purple.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b7b9b",
+    "score": 7.27
+   }
+  }
+ },
+ {
+  "hex": "#cc395b",
+  "description": "Deep raspberry pink, slightly muted",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8c2c5a",
     "score": 7.15
    }
   }
  },
  {
-  "hex": "#bfea95",
-  "description": "Soft, bright minty green with a gentle yellow glow.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
+  "hex": "#8db864",
+  "description": "**Muted, medium olive green**",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#c1e7b3",
-    "score": 9.06
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#98fb98",
-    "score": 8.6
+    "hex": "#6b6b3a",
+    "score": 4.84
    }
   }
  },
  {
-  "hex": "#552b55",
-  "description": "deep muted plum shade",
+  "hex": "#867959",
+  "description": "Deep muted brown, slightly reddish",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#7a5e86",
-    "score": 6.96
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#5d3a4b",
+    "hex": "#4a2c2a",
+    "score": 4.15
+   }
+  }
+ },
+ {
+  "hex": "#513cba",
+  "description": "Vivid violet-blue, medium brightness",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b0fd4",
+    "score": 8.97
+   }
+  }
+ },
+ {
+  "hex": "#4e932a",
+  "description": "**Muted olive green, medium-dark, earthy**",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6b6b3a",
+    "score": 6.1
+   }
+  }
+ },
+ {
+  "hex": "#964c81",
+  "description": "Dusty muted plum purple.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b7089",
+    "score": 7.81
+   }
+  }
+ },
+ {
+  "hex": "#c0c887",
+  "description": "Muted yellow-green, olive-ish tone",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a8a4f",
+    "score": 7.05
+   }
+  }
+ },
+ {
+  "hex": "#73872c",
+  "description": "Deep warm rust brown.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b3a2b",
+    "score": 2.86
+   }
+  }
+ },
+ {
+  "hex": "#6abf9a",
+  "description": "Soft muted mint green.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#98d8c8",
     "score": 8.35
    }
   }
  },
  {
-  "hex": "#557faa",
-  "description": "Muted steel blue with a subtle grayish tone, cool and calm.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#6b7e92",
-    "score": 9.09
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4a6d8c",
-    "score": 8.98
-   }
-  }
- },
- {
-  "hex": "#80d42b",
-  "description": "Bright lime green.",
+  "hex": "#df92b4",
+  "description": "Dusty medium pink, rosy mauve",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#00ff00",
-    "score": 7.84
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#32cd32",
-    "score": 8.74
+    "hex": "#c08081",
+    "score": 7.37
    }
   }
  },
  {
-  "hex": "#552b2b",
-  "description": "Deep maroon, almost brown, intense.",
+  "hex": "#2c801b",
+  "description": "Medium-dark, slightly muted grass green",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#7c1f1f",
-    "score": 8.39
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#5c1a1b",
-    "score": 9.2
+    "hex": "#5a8f3c",
+    "score": 8.78
    }
   }
  },
  {
-  "hex": "#95eaea",
-  "description": "A soft, cool turquoise, reminiscent of calm tropical sea water.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#8fe9c4",
-    "score": 7.46
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#40e0d0",
-    "score": 8.62
-   }
-  }
- },
- {
-  "hex": "#6a4015",
-  "description": "Deep warm chocolate brown.",
+  "hex": "#4f966a",
+  "description": "Muted teal-green, medium shade.",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#5a381f",
-    "score": 9.24
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#3c1f0e",
-    "score": 7.73
+    "hex": "#4a8073",
+    "score": 7.7
    }
   }
  },
  {
-  "hex": "#eabf95",
-  "description": "soft warm peachy beige",
+  "hex": "#afab2e",
+  "description": "Muted olive yellow-green",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#f5e2c3",
-    "score": 8.36
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#f2d2b6",
-    "score": 9.25
+    "hex": "#8a8b4e",
+    "score": 7.88
    }
   }
  },
  {
-  "hex": "#552b2b",
-  "description": "Deep, muted burgundy with dark brown undertones, resembling a slightly bruised rose.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#7b3f4d",
-    "score": 8.2
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5c2a34",
-    "score": 9.47
-   }
-  }
- },
- {
-  "hex": "#aa8055",
-  "description": "Warm medium brown with subtle orange hints, reminiscent of toasted bread or rustic wood.",
-  "budget": 15,
-  "describer": "openai/gpt-oss-20b",
-  "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#a86c4d",
-    "score": 8.59
-   },
-   "anthropic:claude-sonnet-5": {
-    "hex": "#a0522d",
-    "score": 7.12
-   }
-  }
- },
- {
-  "hex": "#d4802b",
-  "description": "Deep, warm, earthy rust orange.",
+  "hex": "#762564",
+  "description": "Deep dark purple, muted",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#b7410e",
-    "score": 6.45
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#b7410e",
-    "score": 6.45
+    "hex": "#4b2e4e",
+    "score": 8.09
    }
   }
  },
  {
-  "hex": "#2b4055",
-  "description": "Dusky navy blue.",
+  "hex": "#82c748",
+  "description": "Bright yellowish-green, like fresh grass",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#102b5c",
-    "score": 8.52
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#1f2a44",
+    "hex": "#7cfc00",
+    "score": 8.0
+   }
+  }
+ },
+ {
+  "hex": "#5ba36c",
+  "description": "Muted medium green, slightly yellowish-toned",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7a8b4f",
+    "score": 7.29
+   }
+  }
+ },
+ {
+  "hex": "#4a5d7e",
+  "description": "Muted slate blue, medium-dark tone",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#5a6d80",
+    "score": 8.85
+   }
+  }
+ },
+ {
+  "hex": "#17cd31",
+  "description": "Bright vibrant grass green",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4caf50",
     "score": 8.6
    }
   }
  },
  {
-  "hex": "#2b552b",
-  "description": "Deep forest green.",
+  "hex": "#d291d5",
+  "description": "Soft medium purple, slightly pinkish",
   "budget": 5,
-  "describer": "openai/gpt-oss-20b",
+  "describer": "anthropic:claude-sonnet-5",
   "guesses": {
-   "openai/gpt-oss-20b": {
-    "hex": "#014421",
-    "score": 8.83
-   },
    "anthropic:claude-sonnet-5": {
-    "hex": "#1b4d3e",
-    "score": 8.04
+    "hex": "#9370b0",
+    "score": 6.97
+   }
+  }
+ },
+ {
+  "hex": "#6a4c3f",
+  "description": "Warm medium brown, slightly muted",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b5a2b",
+    "score": 7.84
+   }
+  }
+ },
+ {
+  "hex": "#3c665e",
+  "description": "Deep muted teal, greenish-blue gray",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#2f4f4f",
+    "score": 8.66
+   }
+  }
+ },
+ {
+  "hex": "#c58566",
+  "description": "Warm medium brown, slightly orange-tan.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#a0653f",
+    "score": 8.06
+   }
+  }
+ },
+ {
+  "hex": "#de535e",
+  "description": "Warm coral red, slightly pink",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#ff6f61",
+    "score": 8.25
+   }
+  }
+ },
+ {
+  "hex": "#b38e66",
+  "description": "Muted golden tan, medium brown",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b0925a",
+    "score": 9.29
+   }
+  }
+ },
+ {
+  "hex": "#54708f",
+  "description": "Muted medium purple, slightly grayish",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b7b9b",
+    "score": 6.03
+   }
+  }
+ },
+ {
+  "hex": "#922e5c",
+  "description": "Deep dusky purplish magenta wine",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#732040",
+    "score": 8.94
+   }
+  }
+ },
+ {
+  "hex": "#7f2bb5",
+  "description": "Deep vibrant purple, slightly blue-leaning",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#5d3fd3",
+    "score": 8.48
+   }
+  }
+ },
+ {
+  "hex": "#3d71ae",
+  "description": "Medium slate blue, muted",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6a5acd",
+    "score": 7.03
+   }
+  }
+ },
+ {
+  "hex": "#127d5f",
+  "description": "Deep muted forest green",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#2e4635",
+    "score": 5.94
+   }
+  }
+ },
+ {
+  "hex": "#5aab2c",
+  "description": "Muted olive-leaf green, moderately bright.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a9a5b",
+    "score": 7.6
+   }
+  }
+ },
+ {
+  "hex": "#6c1a65",
+  "description": "Deep dark plum purple.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b0082",
+    "score": 7.67
+   }
+  }
+ },
+ {
+  "hex": "#9671ca",
+  "description": "Medium purple, moderately saturated violet",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a5fbf",
+    "score": 9.25
+   }
+  }
+ },
+ {
+  "hex": "#835f3d",
+  "description": "Warm medium brown, slightly muted",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b5a2b",
+    "score": 9.52
+   }
+  }
+ },
+ {
+  "hex": "#2ebf30",
+  "description": "Vivid, bright grass green",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4cbb17",
+    "score": 9.62
+   }
+  }
+ },
+ {
+  "hex": "#991940",
+  "description": "Deep dark burgundy red",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4a0e1e",
+    "score": 7.49
+   }
+  }
+ },
+ {
+  "hex": "#18bdb6",
+  "description": "Bright teal, slightly green-tinted turquoise.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#00cc99",
+    "score": 7.75
+   }
+  }
+ },
+ {
+  "hex": "#9d5d2c",
+  "description": "Warm medium brown, slightly orange",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b5651d",
+    "score": 9.15
+   }
+  }
+ },
+ {
+  "hex": "#386f3f",
+  "description": "Muted dark forest green",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#2e4034",
+    "score": 6.78
+   }
+  }
+ },
+ {
+  "hex": "#6d7012",
+  "description": "Dark murky olive green.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#3b3c22",
+    "score": 6.71
+   }
+  }
+ },
+ {
+  "hex": "#ab6e6a",
+  "description": "Muted dusty rosy brown",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#a8807a",
+    "score": 9.08
+   }
+  }
+ },
+ {
+  "hex": "#ab2041",
+  "description": "Deep raspberry red, slightly pink",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#c2185b",
+    "score": 9.0
+   }
+  }
+ },
+ {
+  "hex": "#3397d7",
+  "description": "Bright vivid cobalt blue",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#0047ab",
+    "score": 5.37
+   }
+  }
+ },
+ {
+  "hex": "#b6575d",
+  "description": "Dusty muted brick red",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#a15c4a",
+    "score": 8.4
+   }
+  }
+ },
+ {
+  "hex": "#33725d",
+  "description": "Deep muted teal green.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#2f4f4f",
+    "score": 7.1
+   }
+  }
+ },
+ {
+  "hex": "#7bcc9d",
+  "description": "Soft muted mint green",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#98d8c8",
+    "score": 8.17
+   }
+  }
+ },
+ {
+  "hex": "#d4d061",
+  "description": "Muted olive yellow, dull",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8c8c4b",
+    "score": 6.82
+   }
+  }
+ },
+ {
+  "hex": "#7cb31d",
+  "description": "Bright yellowish-green, grassy leaf color",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7cfc00",
+    "score": 7.12
+   }
+  }
+ },
+ {
+  "hex": "#878c3b",
+  "description": "Muted olive green.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6b6b47",
+    "score": 7.63
+   }
+  }
+ },
+ {
+  "hex": "#9c523f",
+  "description": "Muted terracotta brown, earthy.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b06848",
+    "score": 8.7
+   }
+  }
+ },
+ {
+  "hex": "#539010",
+  "description": "Deep muted purple, grape-like",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4c2f5d",
+    "score": 1.57
+   }
+  }
+ },
+ {
+  "hex": "#614089",
+  "description": "Deep muted purple, dusky violet",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#5d3a5e",
+    "score": 7.95
+   }
+  }
+ },
+ {
+  "hex": "#57ab97",
+  "description": "Muted teal green, medium brightness",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4a8477",
+    "score": 8.05
+   }
+  }
+ },
+ {
+  "hex": "#dc3d42",
+  "description": "Bright brick red, slightly warm.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b22222",
+    "score": 8.31
+   }
+  }
+ },
+ {
+  "hex": "#854384",
+  "description": "Muted medium purple, slightly magenta-toned.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b6699",
+    "score": 8.13
+   }
+  }
+ },
+ {
+  "hex": "#1ad396",
+  "description": "Bright teal green, medium-vivid",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#009975",
+    "score": 7.34
+   }
+  }
+ },
+ {
+  "hex": "#7d60a2",
+  "description": "Muted medium purple, slightly grayish",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b7b9b",
+    "score": 8.16
+   }
+  }
+ },
+ {
+  "hex": "#82793f",
+  "description": "Muted dark olive brown.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4a4032",
+    "score": 5.78
+   }
+  }
+ },
+ {
+  "hex": "#29711e",
+  "description": "Deep dark reddish brown",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4a2020",
+    "score": 2.46
+   }
+  }
+ },
+ {
+  "hex": "#737ca7",
+  "description": "Muted grayish periwinkle blue.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a8fa6",
+    "score": 8.64
+   }
+  }
+ },
+ {
+  "hex": "#696ca1",
+  "description": "Muted grayish blue-purple",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6e6e8f",
+    "score": 9.32
+   }
+  }
+ },
+ {
+  "hex": "#a89e30",
+  "description": "Dark olive yellow-green.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4a4a1f",
+    "score": 5.2
+   }
+  }
+ },
+ {
+  "hex": "#88d096",
+  "description": "Soft yellowish-green, medium brightness",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b5c46a",
+    "score": 6.87
+   }
+  }
+ },
+ {
+  "hex": "#dd695c",
+  "description": "Muted coral red, medium brightness",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#c46a5e",
+    "score": 9.46
+   }
+  }
+ },
+ {
+  "hex": "#6b949f",
+  "description": "Muted grayish-blue teal",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#5f7e7e",
+    "score": 8.51
+   }
+  }
+ },
+ {
+  "hex": "#aa5e79",
+  "description": "Muted dusty rose pink",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#c08081",
+    "score": 7.47
+   }
+  }
+ },
+ {
+  "hex": "#476b5c",
+  "description": "Muted dark grayish forest green.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#3b4a3d",
+    "score": 7.58
+   }
+  }
+ },
+ {
+  "hex": "#3c9e7e",
+  "description": "Muted teal green, medium brightness.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4a7a6f",
+    "score": 7.76
+   }
+  }
+ },
+ {
+  "hex": "#4b8dc6",
+  "description": "Medium sky blue, moderately bright",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#87ceeb",
+    "score": 6.63
+   }
+  }
+ },
+ {
+  "hex": "#d79d49",
+  "description": "Warm muted golden mustard brown",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b8860b",
+    "score": 8.62
+   }
+  }
+ },
+ {
+  "hex": "#36d320",
+  "description": "Bright vivid grass green",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7cfc00",
+    "score": 7.98
+   }
+  }
+ },
+ {
+  "hex": "#5ae299",
+  "description": "Bright minty spring green",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#3eb489",
+    "score": 7.92
+   }
+  }
+ },
+ {
+  "hex": "#afd937",
+  "description": "Bright yellowish-green, like limes.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#32cd32",
+    "score": 7.08
+   }
+  }
+ },
+ {
+  "hex": "#c16ad4",
+  "description": "Bright medium purple, slightly pink-tinted",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b84fce",
+    "score": 9.17
+   }
+  }
+ },
+ {
+  "hex": "#2e27da",
+  "description": "Deep vivid indigo blue",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b0082",
+    "score": 7.2
+   }
+  }
+ },
+ {
+  "hex": "#917ee0",
+  "description": "Bright, saturated purple with blue",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7f00ff",
+    "score": 5.86
+   }
+  }
+ },
+ {
+  "hex": "#339c27",
+  "description": "Deep grassy medium green",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b7a2f",
+    "score": 7.78
+   }
+  }
+ },
+ {
+  "hex": "#408080",
+  "description": "Muted teal gray, medium-dark",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4a6a6a",
+    "score": 8.69
+   }
+  }
+ },
+ {
+  "hex": "#e25d36",
+  "description": "Burnt orange, warm terracotta rust.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b7410e",
+    "score": 8.03
+   }
+  }
+ },
+ {
+  "hex": "#a1aa16",
+  "description": "Murky olive-yellow green, muted",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6b6b3a",
+    "score": 6.24
+   }
+  }
+ },
+ {
+  "hex": "#3c3ed6",
+  "description": "Deep vibrant blue-violet, indigo-like",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b0082",
+    "score": 6.57
+   }
+  }
+ },
+ {
+  "hex": "#d11cca",
+  "description": "Vivid magenta pink, bold",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#ff00aa",
+    "score": 7.94
+   }
+  }
+ },
+ {
+  "hex": "#d52932",
+  "description": "Bright warm red, slightly orange-tinted",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#ff4500",
+    "score": 6.99
+   }
+  }
+ },
+ {
+  "hex": "#33aa6d",
+  "description": "Muted medium green, slightly teal",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#5f9e8f",
+    "score": 7.65
+   }
+  }
+ },
+ {
+  "hex": "#657049",
+  "description": "Dark muted olive-brown",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4a4326",
+    "score": 6.54
+   }
+  }
+ },
+ {
+  "hex": "#6b7751",
+  "description": "Muted grayish olive green.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7d7d5c",
+    "score": 9.12
+   }
+  }
+ },
+ {
+  "hex": "#86c3a3",
+  "description": "Soft muted sage green.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#9caf88",
+    "score": 7.8
+   }
+  }
+ },
+ {
+  "hex": "#bb31d7",
+  "description": "Vivid purple with pink undertones",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#c71585",
+    "score": 6.94
+   }
+  }
+ },
+ {
+  "hex": "#3b7170",
+  "description": "Muted dark teal green",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#3b6357",
+    "score": 8.87
+   }
+  }
+ },
+ {
+  "hex": "#cd8aaf",
+  "description": "Muted dusty rosy pink-mauve",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b78a8a",
+    "score": 7.45
+   }
+  }
+ },
+ {
+  "hex": "#1c6e68",
+  "description": "Deep muted teal green",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#1f4d42",
+    "score": 8.14
+   }
+  }
+ },
+ {
+  "hex": "#9e21c0",
+  "description": "Vivid purple, magenta-leaning bright hue",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#cc00cc",
+    "score": 8.73
+   }
+  }
+ },
+ {
+  "hex": "#734b9b",
+  "description": "Muted medium purple, grape-like.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b6f9e",
+    "score": 7.9
+   }
+  }
+ },
+ {
+  "hex": "#8ce44e",
+  "description": "Bright yellowish-green, like fresh lime.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#32cd32",
+    "score": 8.38
+   }
+  }
+ },
+ {
+  "hex": "#e2c34e",
+  "description": "Muted golden yellow, mustard-like",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#c9a227",
+    "score": 8.76
+   }
+  }
+ },
+ {
+  "hex": "#4d2b80",
+  "description": "Deep royal purple, muted",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b3b6b",
+    "score": 8.89
+   }
+  }
+ },
+ {
+  "hex": "#254e80",
+  "description": "Deep muted navy blue",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#1f2a44",
+    "score": 7.68
+   }
+  }
+ },
+ {
+  "hex": "#249e56",
+  "description": "Deep emerald green, medium brightness.",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#046307",
+    "score": 5.71
+   }
+  }
+ },
+ {
+  "hex": "#675032",
+  "description": "Dark muted earthy brown",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4a3728",
+    "score": 8.45
+   }
+  }
+ },
+ {
+  "hex": "#5c9a8d",
+  "description": "Muted teal green, medium-dark",
+  "budget": 5,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4a7a72",
+    "score": 8.26
    }
   }
  }
