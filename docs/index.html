@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beat the AI at colors</title>
+<style>
+  * { box-sizing: border-box; margin: 0; user-select: none; -webkit-user-select: none; }
+  body {
+    background: #101317; color: #e8ecf1;
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+    display: flex; justify-content: center; padding: 16px 10px;
+  }
+  #card {
+    position: relative; width: 100%; max-width: 490px;
+    height: min(640px, calc(100dvh - 32px));
+    border-radius: 18px; overflow: hidden; background: #22262c;
+    box-shadow: 0 8px 30px rgba(0,0,0,.45);
+  }
+  .screen { position: absolute; inset: 0; display: none; }
+  .screen.active { display: block; }
+
+  #intro-screen { display: none; padding: 34px 30px; }
+  #intro-screen.active { display: block; }
+  #intro-screen h1 { font-size: 26px; margin-bottom: 14px; }
+  #intro-screen p { color: #9aa5b1; margin-bottom: 14px; }
+  .big-btn {
+    background: #fff; color: #14181d; border: none; border-radius: 999px;
+    padding: 14px 30px; font-size: 17px; font-weight: 700; cursor: pointer;
+  }
+  .big-btn:hover { filter: brightness(.92); }
+
+  #flash-screen { display: none; }
+  #flash-screen.active { display: flex; }
+  #flash-screen { align-items: center; justify-content: center; flex-direction: column; gap: 10px; }
+  #countdown { font-size: 120px; font-weight: 800; color: rgba(255,255,255,.92); text-shadow: 0 2px 14px rgba(0,0,0,.35); }
+  #flash-label {
+    background: rgba(0,0,0,.35); color: #fff; padding: 6px 16px;
+    border-radius: 999px; font-size: 14px; letter-spacing: .04em;
+  }
+
+  #pick-screen .hud, #flash-screen .hud {
+    position: absolute; top: 16px; left: 0; right: 0;
+    display: flex; justify-content: space-between; padding: 0 20px;
+    font-size: 14px; color: rgba(255,255,255,.85); z-index: 5;
+  }
+  .hud span { background: rgba(0,0,0,.30); padding: 3px 12px; border-radius: 999px; }
+
+  #strips { position: absolute; top: 0; bottom: 0; left: 0; display: flex; gap: 4px; padding: 14px 0 14px 14px; z-index: 4; }
+  .strip { position: relative; width: 30px; border-radius: 15px; cursor: pointer; touch-action: none; box-shadow: 0 0 0 1px rgba(0,0,0,.25) inset; }
+  .handle {
+    position: absolute; left: 50%; width: 24px; height: 24px; border-radius: 50%;
+    background: #fff; transform: translate(-50%, -50%);
+    box-shadow: 0 1px 5px rgba(0,0,0,.5); pointer-events: none;
+  }
+  #lock {
+    position: absolute; right: 20px; bottom: 20px; width: 62px; height: 62px;
+    border-radius: 50%; border: none; background: #fff; font-size: 26px;
+    cursor: pointer; box-shadow: 0 3px 12px rgba(0,0,0,.4); z-index: 5;
+  }
+  #lock:hover { filter: brightness(.92); }
+
+  #reveal-screen { display: none; }
+  #reveal-screen.active { display: flex; }
+  #reveal-screen { flex-direction: column; }
+  #compare-wrap { flex: 1; min-height: 0; margin: 14px; display: flex; align-items: center; justify-content: center; }
+  #compare-square { position: relative; border-radius: 14px; overflow: hidden; }
+  #compare-square svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .tag {
+    position: absolute; font-size: 13px; color: rgba(255,255,255,.9);
+    background: rgba(0,0,0,.35); padding: 3px 12px; border-radius: 999px;
+  }
+  #tag-you { top: 12px; left: 12px; }
+  #tag-truth { bottom: 12px; right: 12px; }
+  #reveal-overlay {
+    position: absolute; top: 12px; right: 14px; text-align: right; pointer-events: none;
+  }
+  #round-score { font-size: 48px; font-weight: 800; color: #fff; text-shadow: 0 2px 14px rgba(0,0,0,.5); line-height: 1; }
+  #verdict { color: #fff; text-shadow: 0 1px 8px rgba(0,0,0,.6); font-size: 16px; font-weight: 600; margin-top: 6px; }
+  #ai-panel { padding: 0 20px 18px; }
+  #ai-desc { color: #9aa5b1; font-size: 13px; font-style: italic; margin-bottom: 10px; }
+  #ai-row { display: flex; gap: 12px; align-items: center; margin-bottom: 14px; flex-wrap: wrap; }
+  .ai-chip { display: flex; gap: 8px; align-items: center; font-size: 13px; }
+  .ai-chip .dot { width: 26px; height: 26px; border-radius: 7px; box-shadow: 0 0 0 1px rgba(255,255,255,.15); }
+  .ai-chip b { font-variant-numeric: tabular-nums; }
+  #again { width: 100%; }
+</style>
+</head>
+<body>
+<div id="card">
+
+  <div id="intro-screen" class="screen active">
+    <h1>Beat the AI at colors</h1>
+    <p>You'll see a color for five seconds. Memorize it, then recreate it from
+       memory with the sliders. No time limit.</p>
+    <p>Your opponents never saw the color at all &mdash; they are language models
+       guessing from a short written description of it. Surely you can beat
+       that.</p>
+    <p style="margin-bottom:26px">Scored 0&ndash;10 by perceptual closeness, with the same formula
+       the color games use.</p>
+    <button class="big-btn" id="start">Play</button>
+  </div>
+
+  <div id="flash-screen" class="screen">
+    <div class="hud"><span id="flash-tally"></span><span>memorize</span></div>
+    <div id="countdown">5</div>
+    <div id="flash-label">recreate this color from memory</div>
+  </div>
+
+  <div id="pick-screen" class="screen">
+    <div class="hud"><span id="pick-tally"></span><span>from memory</span></div>
+    <div id="strips">
+      <div class="strip" id="strip-h"><div class="handle"></div></div>
+      <div class="strip" id="strip-s"><div class="handle"></div></div>
+      <div class="strip" id="strip-b"><div class="handle"></div></div>
+    </div>
+    <button id="lock" title="Lock in">&#9678;</button>
+  </div>
+
+  <div id="reveal-screen" class="screen">
+    <div id="compare-wrap">
+      <div id="compare-square">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+          <polygon id="poly-you" points="0,0 100,0 0,100"></polygon>
+          <polygon id="poly-truth" points="100,0 100,100 0,100"></polygon>
+        </svg>
+        <span class="tag" id="tag-you">Your selection</span>
+        <span class="tag" id="tag-truth">Original</span>
+        <div id="reveal-overlay">
+          <div id="round-score"></div>
+          <div id="verdict"></div>
+        </div>
+      </div>
+    </div>
+    <div id="ai-panel">
+      <div id="ai-desc"></div>
+      <div id="ai-row"></div>
+      <button class="big-btn" id="again">Do it again</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="scoring.js"></script>
+<script>
+const NAMES = {
+  "openai/gpt-oss-20b": "gpt-oss-20b",
+  "anthropic:claude-sonnet-5": "Sonnet 5",
+};
+const prettyName = id => NAMES[id] || id.split(/[/:]/).pop();
+const $ = id => document.getElementById(id);
+const show = id => {
+  for (const s of document.querySelectorAll(".screen")) s.classList.remove("active");
+  $(id).classList.add("active");
+};
+
+let pool = [], queue = [], trial = null;
+let hsb = [180, 0, 50];
+let wins = 0, losses = 0;
+
+function nextTrial() {
+  if (queue.length === 0) queue = [...pool].sort(() => Math.random() - 0.5);
+  return queue.pop();
+}
+
+const css = (h, s, b) => `rgb(${hsbToRgb(h, s, b).join(",")})`;
+
+function paint() {
+  const [h, s, b] = hsb;
+  $("pick-screen").style.background = css(h, s, b);
+  $("strip-h").style.background =
+    "linear-gradient(to bottom, hsl(0,100%,50%), hsl(60,100%,50%), hsl(120,100%,50%), hsl(180,100%,50%), hsl(240,100%,50%), hsl(300,100%,50%), hsl(360,100%,50%))";
+  $("strip-s").style.background = `linear-gradient(to bottom, ${css(h, 100, b)}, ${css(h, 0, b)})`;
+  $("strip-b").style.background = `linear-gradient(to bottom, ${css(h, s, 100)}, #000)`;
+  const fracs = [h / 360, 1 - s / 100, 1 - b / 100];
+  ["strip-h", "strip-s", "strip-b"].forEach((id, i) => {
+    const strip = $(id);
+    const pad = 14;
+    const y = pad + fracs[i] * (strip.clientHeight - 2 * pad);
+    strip.querySelector(".handle").style.top = `${y}px`;
+  });
+}
+
+function bindStrip(id, apply) {
+  const strip = $(id);
+  const set = e => {
+    const rect = strip.getBoundingClientRect();
+    const pad = 14;
+    const frac = Math.max(0, Math.min(1, (e.clientY - rect.top - pad) / (rect.height - 2 * pad)));
+    apply(frac);
+    paint();
+  };
+  strip.addEventListener("pointerdown", e => {
+    strip.setPointerCapture(e.pointerId);
+    set(e);
+    const move = ev => set(ev);
+    const up = () => {
+      strip.removeEventListener("pointermove", move);
+      strip.removeEventListener("pointerup", up);
+    };
+    strip.addEventListener("pointermove", move);
+    strip.addEventListener("pointerup", up);
+  });
+}
+
+bindStrip("strip-h", f => { hsb[0] = Math.round(f * 359); });
+bindStrip("strip-s", f => { hsb[1] = Math.round((1 - f) * 100); });
+bindStrip("strip-b", f => { hsb[2] = Math.round((1 - f) * 100); });
+
+function tallyText() {
+  return `you ${wins} · AI ${losses}`;
+}
+
+function randomStart(truthHex) {
+  const truthHue = rgbToHsb(...hexToRgb(truthHex))[0];
+  let h = Math.floor(Math.random() * 360);
+  let tries = 0;
+  while (Math.min(Math.abs(h - truthHue), 360 - Math.abs(h - truthHue)) < 48 && tries < 12) {
+    h = Math.floor(Math.random() * 360);
+    tries += 1;
+  }
+  return [h, 30 + Math.floor(Math.random() * 60), 40 + Math.floor(Math.random() * 50)];
+}
+
+function startRound() {
+  trial = nextTrial();
+  $("flash-screen").style.background = trial.hex;
+  $("flash-tally").textContent = tallyText();
+  $("pick-tally").textContent = tallyText();
+  show("flash-screen");
+  let remaining = 5;
+  $("countdown").textContent = remaining;
+  const timer = setInterval(() => {
+    remaining -= 1;
+    if (remaining > 0) {
+      $("countdown").textContent = remaining;
+    } else {
+      clearInterval(timer);
+      hsb = randomStart(trial.hex);
+      show("pick-screen");
+      paint();
+    }
+  }, 1000);
+}
+
+function sizeSquare() {
+  const wrap = $("compare-wrap");
+  const size = Math.min(wrap.clientWidth, wrap.clientHeight);
+  $("compare-square").style.width = `${size}px`;
+  $("compare-square").style.height = `${size}px`;
+}
+window.addEventListener("resize", () => {
+  if ($("reveal-screen").classList.contains("active")) sizeSquare();
+});
+
+function reveal() {
+  const yourScore = dialedScore(hsb, trial.hex);
+  $("poly-you").setAttribute("fill", css(...hsb));
+  $("poly-truth").setAttribute("fill", trial.hex);
+  $("round-score").textContent = yourScore.toFixed(2);
+  const ais = Object.entries(trial.guesses)
+    .map(([g, v]) => ({ name: prettyName(g), hex: v.hex, score: v.score }))
+    .sort((a, b) => b.score - a.score);
+  const beaten = ais.filter(a => yourScore > a.score).length;
+  const won = beaten === ais.length;
+  if (won) wins += 1; else losses += 1;
+  $("verdict").textContent =
+    won ? "You won." :
+    beaten > 0 ? `You beat ${ais.filter(a => yourScore > a.score).map(a => a.name).join(", ")}, but lost overall.` :
+    "You lost.";
+  $("ai-desc").textContent = `The AIs only got: “${trial.description}”`;
+  $("ai-row").innerHTML = ais.map(a => `
+    <div class="ai-chip"><div class="dot" style="background:${a.hex}"></div>
+      <span>${a.name}</span><b>${a.score.toFixed(2)}</b></div>`).join("");
+  show("reveal-screen");
+  sizeSquare();
+}
+
+$("start").onclick = startRound;
+$("again").onclick = startRound;
+$("lock").onclick = reveal;
+
+fetch("trials.json")
+  .then(r => r.json())
+  .then(data => { pool = data; })
+  .catch(() => { document.querySelector("#intro-screen p").textContent = "Could not load trial data."; });
+</script>
+</body>
+</html>
