@@ -163,7 +163,7 @@
           <polygon id="poly-you" points="0,0 100,0 0,100"></polygon>
           <polygon id="poly-truth" points="100,0 100,100 0,100"></polygon>
         </svg>
-        <span class="tag" id="tag-you">Your selection</span>
+        <span class="tag" id="tag-you">you</span>
         <span class="tag" id="tag-truth">Original</span>
       </div>
     </div>
@@ -291,6 +291,9 @@ function sizeSquare() {
 window.addEventListener("resize", () => {
   if ($("reveal-screen").classList.contains("active")) sizeSquare();
 });
+new ResizeObserver(() => {
+  if ($("reveal-screen").classList.contains("active")) sizeSquare();
+}).observe(document.getElementById("compare-wrap"));
 
 function reveal() {
   const yourScore = dialedScore(hsb, trial.hex);
