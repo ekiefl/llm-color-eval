@@ -1,4 +1,4 @@
-# color-guesser
+# llm-color-eval
 
 An evaluation harness for a two-agent color communication game:
 
@@ -17,23 +17,10 @@ The round trip is scored with two metrics, no human labels needed:
   score jitter is omitted. Ten is a perfect match.
 - **Delta E (secondary)**: the raw CIEDE2000 perceptual distance.
 
-## Layout
-
-- `sampler.py` — draws hex codes from RGB or HLS space to build datasets
-- `describer.py` — the hex-to-description agent, with an output validator that rejects encoding leaks
-- `guesser.py` — the description-to-hex agent, with structured output
-- `metrics.py` — the dialed.gg similarity score (primary) and CIEDE2000 (secondary)
-- `models.py` — Pydantic records shared across modules
-- `llm.py` — model factories for local Ollama and any OpenAI-compatible endpoint
-- `db.py` — SQLite storage: `descriptions` (color, describer, word budget, text) and `guesses` (guesser, guessed hex, delta E), one description to many guesses
-- `runner.py` — concurrent batch runner that records every trial as it completes
-- `cli.py` — the `color-guesser` command line interface
-- `app.py` — Streamlit app for single trials with a visual comparison
+## Usage
 
 An API key is read from `.env` (e.g. `GROQ_KEY=...`), which is loaded
 automatically by the CLI and the app.
-
-## Usage
 
 Generate datasets:
 
