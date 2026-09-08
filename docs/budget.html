@@ -7,14 +7,14 @@
 <style>
   * { box-sizing: border-box; margin: 0; }
   body { background: #fff; color: #0b0b0b; font: 15px/1.5 system-ui, -apple-system, sans-serif; padding: 10px; }
-  #wrap { max-width: 720px; margin: 0 auto; }
-  .tick { font-size: 11px; fill: #52514e; font-family: system-ui, sans-serif; }
+  #wrap { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; min-height: calc(100dvh - 20px); }
+  .tick { font-size: 16px; fill: #52514e; font-family: system-ui, sans-serif; }
   svg { width: 100%; height: auto; display: block; }
   .hit { cursor: pointer; }
   #legend { display: flex; gap: 18px; font-size: 13px; color: #52514e; padding: 0 0 4px 60px; }
   .key { display: flex; align-items: center; gap: 6px; }
   .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
-  #panel { border: 1px solid #d5d4d0; border-radius: 10px; padding: 12px 16px; margin-top: 6px; height: 168px; overflow-y: auto; }
+  #panel { border: 1px solid #d5d4d0; border-radius: 10px; padding: 12px 16px; margin-top: 6px; flex: 1; min-height: 150px; overflow-y: auto; }
   #panel-head { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 13px; color: #52514e; }
   #panel-head .chip { width: 20px; height: 20px; border-radius: 5px; background: #95eabf; }
   #panel-head b { color: #0b0b0b; }

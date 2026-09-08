@@ -90,44 +90,47 @@ def color_difficulty(db_path: Path) -> list[tuple[str, float]]:
 
 
 def pipeline_svg() -> str:
-    """Draw the describe-then-guess pipeline diagram.
+    """Draw the describe-then-guess pipeline diagram in a two-row layout.
 
     Returns:
         The SVG document.
     """
     parts = [
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" font-family="sans-serif">',
-        '<rect width="880" height="240" fill="#ffffff"/>',
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="sans-serif">',
+        '<rect width="640" height="460" fill="#ffffff"/>',
         '<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7"'
         ' markerHeight="7" orient="auto-start-reverse">'
         f'<path d="M 0 0 L 10 5 L 0 10 z" fill="{INK_2}"/></marker></defs>',
     ]
-    parts.append(f'<rect x="20" y="70" width="80" height="80" rx="12" fill="#3fa76e"/>')
-    parts.append(svg_text(60, 170, "#3fa76e", 13, INK_2, "middle", "400"))
-    parts.append(svg_text(60, 54, "the color", 13, INK_2, "middle", "400"))
-    parts.append(f'<line x1="108" y1="110" x2="152" y2="110" stroke="{INK_2}" stroke-width="2" marker-end="url(#arr)"/>')
-    parts.append(f'<rect x="158" y="80" width="120" height="60" rx="10" fill="#ffffff" stroke="{EDGE}" stroke-width="1.5"/>')
-    parts.append(svg_text(218, 106, "describer", 15, INK, "middle", "600"))
-    parts.append(svg_text(218, 126, "(LLM)", 13, INK_2, "middle", "400"))
-    parts.append(f'<line x1="286" y1="110" x2="330" y2="110" stroke="{INK_2}" stroke-width="2" marker-end="url(#arr)"/>')
-    parts.append(f'<rect x="332" y="62" width="228" height="96" rx="10" fill="#ffffff" stroke="{EDGE}" stroke-width="1.5"/>')
-    parts.append(svg_text(446, 92, "“medium-toned, fresh grass-green", 13, INK, "middle", "400"))
-    parts.append(svg_text(446, 112, "with a slight blue undertone…”", 13, INK, "middle", "400"))
-    parts.append(svg_text(446, 142, "no hex, no RGB, no numbers", 11, INK_2, "middle", "400"))
-    parts.append(f'<line x1="560" y1="110" x2="604" y2="110" stroke="{INK_2}" stroke-width="2" marker-end="url(#arr)"/>')
-    parts.append(f'<rect x="610" y="80" width="120" height="60" rx="10" fill="#ffffff" stroke="{EDGE}" stroke-width="1.5"/>')
-    parts.append(svg_text(670, 106, "guesser", 15, INK, "middle", "600"))
-    parts.append(svg_text(670, 126, "(LLM)", 13, INK_2, "middle", "400"))
-    parts.append(f'<line x1="738" y1="110" x2="782" y2="110" stroke="{INK_2}" stroke-width="2" marker-end="url(#arr)"/>')
-    parts.append(f'<rect x="788" y="70" width="80" height="80" rx="12" fill="#4a9e6a"/>')
-    parts.append(svg_text(828, 170, "#4a9e6a", 13, INK_2, "middle", "400"))
-    parts.append(svg_text(828, 54, "the guess", 13, INK_2, "middle", "400"))
-    parts.append(f'<line x1="580" y1="30" x2="580" y2="210" stroke="{INK_2}" stroke-width="1.5" stroke-dasharray="5 5"/>')
-    parts.append(svg_text(590, 222, "never sees the color", 12, INK_2, "start", "400"))
-    parts.append(svg_text(570, 222, "sees the color", 12, INK_2, "end", "400"))
+    parts.append('<rect x="24" y="62" width="88" height="88" rx="14" fill="#3fa76e"/>')
+    parts.append(svg_text(68, 174, "#3fa76e", 17, INK_2, "middle", "400"))
+    parts.append(svg_text(68, 46, "the color", 17, INK_2, "middle", "400"))
+    parts.append(f'<line x1="120" y1="106" x2="158" y2="106" stroke="{INK_2}" stroke-width="2.5" marker-end="url(#arr)"/>')
+    parts.append(f'<rect x="162" y="70" width="152" height="72" rx="12" fill="#ffffff" stroke="{EDGE}" stroke-width="1.5"/>')
+    parts.append(svg_text(238, 100, "describer", 21, INK, "middle", "600"))
+    parts.append(svg_text(238, 126, "(LLM)", 16, INK_2, "middle", "400"))
+    parts.append(f'<line x1="322" y1="106" x2="360" y2="106" stroke="{INK_2}" stroke-width="2.5" marker-end="url(#arr)"/>')
+    parts.append(f'<rect x="364" y="48" width="252" height="120" rx="12" fill="#ffffff" stroke="{EDGE}" stroke-width="1.5"/>')
+    parts.append(svg_text(490, 84, "“medium-toned, fresh", 17, INK, "middle", "400"))
+    parts.append(svg_text(490, 108, "grass-green with a slight", 17, INK, "middle", "400"))
+    parts.append(svg_text(490, 132, "blue undertone…”", 17, INK, "middle", "400"))
+    parts.append(svg_text(490, 158, "no hex, no RGB, no numbers", 14, INK_2, "middle", "400"))
+    parts.append(f'<line x1="24" y1="230" x2="616" y2="230" stroke="{INK_2}" stroke-width="1.5" stroke-dasharray="6 6"/>')
+    parts.append(svg_text(24, 216, "sees the color", 15, INK_2, "start", "400"))
+    parts.append(svg_text(24, 254, "never sees the color", 15, INK_2, "start", "400"))
+    parts.append(
+        f'<path d="M 490 172 L 490 336 L 476 336" fill="none" stroke="{INK_2}"'
+        ' stroke-width="2.5" marker-end="url(#arr)"/>'
+    )
+    parts.append(f'<rect x="320" y="300" width="152" height="72" rx="12" fill="#ffffff" stroke="{EDGE}" stroke-width="1.5"/>')
+    parts.append(svg_text(396, 330, "guesser", 21, INK, "middle", "600"))
+    parts.append(svg_text(396, 356, "(LLM)", 16, INK_2, "middle", "400"))
+    parts.append(f'<line x1="316" y1="336" x2="278" y2="336" stroke="{INK_2}" stroke-width="2.5" marker-end="url(#arr)"/>')
+    parts.append('<rect x="182" y="292" width="88" height="88" rx="14" fill="#4a9e6a"/>')
+    parts.append(svg_text(226, 404, "#4a9e6a", 17, INK_2, "middle", "400"))
+    parts.append(svg_text(226, 276, "the guess", 17, INK_2, "middle", "400"))
     parts.append("</svg>")
     return "".join(parts)
-
 
 def example_rows(db_path: Path, hex_code: str) -> list[tuple[int, float, str]]:
     """Fetch one representative description of a color per word budget.
@@ -672,13 +675,13 @@ def hue_combined_svg(db_path: Path) -> str:
         trend.append((h, statistics.mean(window)))
     cells, lo, hi, n_colors = _heat_cells(db_path)
 
-    width, height = 1240, 590
+    width, height = 1240, 620
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" font-family="sans-serif">',
         f'<rect width="{width}" height="{height}" fill="#ffffff"/>',
     ]
 
-    left, right_edge, top, bottom = 80, 640, 40, 110
+    left, right_edge, top, bottom = 95, 640, 45, 125
     y_min, y_max = 2.0, 10.0
 
     def sx(hue: float) -> float:
@@ -690,19 +693,19 @@ def hue_combined_svg(db_path: Path) -> str:
     for tick in (2, 4, 6, 8, 10):
         y = sy(tick)
         parts.append(f'<line x1="{left}" y1="{y}" x2="{right_edge}" y2="{y}" stroke="{GRID}"/>')
-        parts.append(svg_text(left - 10, y + 4, str(tick), 18, INK_2, "end", "400"))
+        parts.append(svg_text(left - 10, y + 4, str(tick), 28, INK_2, "end", "400"))
     for tick in range(0, 361, 60):
-        parts.append(svg_text(sx(tick), height - bottom + 22, f"{tick}°", 18, INK_2, "middle", "400"))
-    parts.append(svg_text((left + right_edge) / 2, height - bottom + 44, "hue", 20, INK_2, "middle", "400"))
+        parts.append(svg_text(sx(tick), height - bottom + 36, f"{tick}°", 28, INK_2, "middle", "400"))
+    parts.append(svg_text((left + right_edge) / 2, height - bottom + 74, "hue", 31, INK_2, "middle", "400"))
     parts.append(
-        f'<text x="24" y="{top + (height - top - bottom) / 2}" font-family="{FONT}" font-size="20"'
+        f'<text x="32" y="{top + (height - top - bottom) / 2}" font-family="{FONT}" font-size="31"'
         f' fill="{INK_2}" text-anchor="middle"'
-        f' transform="rotate(-90 24 {top + (height - top - bottom) / 2})">mean score (0–10)</text>'
+        f' transform="rotate(-90 32 {top + (height - top - bottom) / 2})">mean score (0–10)</text>'
     )
     for hue, mean, hex_code in points:
-        parts.append(f'<circle cx="{sx(hue):.1f}" cy="{sy(mean):.1f}" r="4.5" fill="{hex_code}" fill-opacity="0.75"/>')
+        parts.append(f'<circle cx="{sx(hue):.1f}" cy="{sy(mean):.1f}" r="5.5" fill="{hex_code}" fill-opacity="0.75"/>')
     path = " ".join(f"{'M' if i == 0 else 'L'} {sx(h):.1f} {sy(m):.1f}" for i, (h, m) in enumerate(trend))
-    parts.append(f'<path d="{path}" fill="none" stroke="{INK}" stroke-width="3.5"/>')
+    parts.append(f'<path d="{path}" fill="none" stroke="{INK}" stroke-width="4.5"/>')
 
     cx, cy = 950, 258
     r0, r1 = 46, 150
@@ -743,24 +746,24 @@ def hue_combined_svg(db_path: Path) -> str:
     for ref, angle in ((8.0, 302), (8.5, 334)):
         parts.append(f'<circle cx="{cx}" cy="{cy}" r="{band_r(ref):.1f}" fill="none" stroke="{GRID}" stroke-width="1"/>')
         rx, ry = point_at(angle, band_r(ref))
-        parts.append(svg_text(rx, ry - 3, f"{ref:.1f}", 15, INK_2, "middle", "400"))
+        parts.append(svg_text(rx, ry - 3, f"{ref:.1f}", 23, INK_2, "middle", "400"))
     ring_path = " ".join(
         f"{'M' if i == 0 else 'L'} {point_at(h, band_r(m))[0]:.1f} {point_at(h, band_r(m))[1]:.1f}"
         for i, (h, m) in enumerate(trend)
     )
-    parts.append(f'<path d="{ring_path} Z" fill="none" stroke="{INK}" stroke-width="3.5"/>')
+    parts.append(f'<path d="{ring_path} Z" fill="none" stroke="{INK}" stroke-width="4.5"/>')
     for hue in (0, 90, 180, 270):
-        x, y = point_at(hue, band1 + 22)
-        parts.append(svg_text(x, y + 4, f"{hue}°", 18, INK_2, "middle", "400"))
+        x, y = point_at(hue, band1 + 30)
+        parts.append(svg_text(x, y + 4, f"{hue}°", 28, INK_2, "middle", "400"))
     bar_x, bar_y, bar_w = cx - 105, height - 38, 210
     for k in range(40):
         parts.append(
-            f'<rect x="{bar_x + k * bar_w / 40}" y="{bar_y}" width="{bar_w / 40 + 0.5}" height="13"'
+            f'<rect x="{bar_x + k * bar_w / 40}" y="{bar_y}" width="{bar_w / 40 + 0.5}" height="15"'
             f' fill="{_ramp(lo + (hi - lo) * k / 39, lo, hi)}"/>'
         )
-    parts.append(svg_text(bar_x - 8, bar_y + 9, f"{lo:.1f}", 16, INK_2, "end", "400"))
-    parts.append(svg_text(bar_x + bar_w + 8, bar_y + 9, f"{hi:.1f}", 16, INK_2, "start", "400"))
-    parts.append(svg_text(bar_x + bar_w / 2, bar_y - 10, "cell mean score", 16, INK_2, "middle", "400"))
+    parts.append(svg_text(bar_x - 8, bar_y + 9, f"{lo:.1f}", 25, INK_2, "end", "400"))
+    parts.append(svg_text(bar_x + bar_w + 8, bar_y + 9, f"{hi:.1f}", 25, INK_2, "start", "400"))
+    parts.append(svg_text(bar_x + bar_w / 2, bar_y - 14, "cell mean score", 25, INK_2, "middle", "400"))
     parts.append("</svg>")
     return "".join(parts)
 
@@ -848,14 +851,14 @@ def budget_widget_html(
 <style>
   * {{ box-sizing: border-box; margin: 0; }}
   body {{ background: #fff; color: #0b0b0b; font: 15px/1.5 system-ui, -apple-system, sans-serif; padding: 10px; }}
-  #wrap {{ max-width: 720px; margin: 0 auto; }}
-  .tick {{ font-size: 11px; fill: {INK_2}; font-family: system-ui, sans-serif; }}
+  #wrap {{ max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; min-height: calc(100dvh - 20px); }}
+  .tick {{ font-size: 16px; fill: {INK_2}; font-family: system-ui, sans-serif; }}
   svg {{ width: 100%; height: auto; display: block; }}
   .hit {{ cursor: pointer; }}
   #legend {{ display: flex; gap: 18px; font-size: 13px; color: {INK_2}; padding: 0 0 4px 60px; }}
   .key {{ display: flex; align-items: center; gap: 6px; }}
   .dot {{ width: 10px; height: 10px; border-radius: 50%; display: inline-block; }}
-  #panel {{ border: 1px solid {EDGE}; border-radius: 10px; padding: 12px 16px; margin-top: 6px; height: 168px; overflow-y: auto; }}
+  #panel {{ border: 1px solid {EDGE}; border-radius: 10px; padding: 12px 16px; margin-top: 6px; flex: 1; min-height: 150px; overflow-y: auto; }}
   #panel-head {{ display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 13px; color: {INK_2}; }}
   #panel-head .chip {{ width: 20px; height: 20px; border-radius: 5px; background: {example_hex}; }}
   #panel-head b {{ color: {INK}; }}

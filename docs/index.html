@@ -9,11 +9,12 @@
   body {
     background: #101317; color: #e8ecf1;
     font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
-    display: flex; justify-content: center; padding: 16px 10px;
+    display: flex; justify-content: center; align-items: center;
+    padding: 10px; min-height: calc(100dvh - 20px);
   }
   #card {
-    position: relative; width: 100%; max-width: 490px;
-    height: min(640px, calc(100dvh - 32px));
+    position: relative; width: min(490px, 100%, calc((100dvh - 20px) * 0.766));
+    aspect-ratio: 49 / 64;
     border-radius: 18px; overflow: hidden; background: #22262c;
     box-shadow: 0 8px 30px rgba(0,0,0,.45);
   }
@@ -38,6 +39,21 @@
   }
   @media (prefers-reduced-motion: no-preference) {
     #start { animation: glow 5s linear infinite; }
+  }
+  @media (max-width: 480px) {
+    #strips { gap: 3px; padding: 46px 0 10px 10px; }
+    .strip { width: 20px; border-radius: 10px; }
+    .handle { width: 17px; height: 17px; }
+    #lock { width: 48px; height: 48px; font-size: 20px; right: 14px; bottom: 14px; }
+    #countdown { font-size: 76px; }
+    .hud { font-size: 12px; padding: 0 12px; top: 12px; }
+    #intro-screen { padding: 22px 20px; }
+    #intro-screen h1 { font-size: 21px; }
+    #intro-screen p { font-size: 14px; margin-bottom: 10px; }
+    .ai-chip .dot { width: 30px; height: 30px; }
+    .ai-chip b { font-size: 20px; }
+    #ai-panel { padding: 0 14px 12px; }
+    #again { padding: 11px 22px; font-size: 15px; }
   }
 
   #flash-screen { display: none; }
