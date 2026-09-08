@@ -851,14 +851,17 @@ def budget_widget_html(
 <style>
   * {{ box-sizing: border-box; margin: 0; }}
   body {{ background: #fff; color: #0b0b0b; font: 15px/1.5 system-ui, -apple-system, sans-serif; padding: 10px; }}
-  #wrap {{ max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; min-height: 545px; }}
+  #wrap {{ max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; min-height: 585px; }}
   .tick {{ font-size: 16px; fill: {INK_2}; font-family: system-ui, sans-serif; }}
   svg {{ width: 100%; height: auto; display: block; }}
   .hit {{ cursor: pointer; }}
   #legend {{ display: flex; gap: 18px; font-size: 13px; color: {INK_2}; padding: 0 0 4px 60px; }}
   .key {{ display: flex; align-items: center; gap: 6px; }}
   .dot {{ width: 10px; height: 10px; border-radius: 50%; display: inline-block; }}
-  #panel {{ border: 1px solid {EDGE}; border-radius: 10px; padding: 12px 16px; margin-top: 6px; flex: 1; min-height: 150px; overflow-y: auto; }}
+  #panel {{ border: 1px solid {EDGE}; border-radius: 10px; padding: 12px 16px; margin-top: 6px; flex: 1; min-height: 150px; overflow-y: auto; scrollbar-width: thin; }}
+  #panel::-webkit-scrollbar {{ width: 8px; }}
+  #panel::-webkit-scrollbar-thumb {{ background: #c9c8c4; border-radius: 4px; }}
+  #scroll-more {{ color: {INK_2}; font-size: 12px; }}
   #panel-head {{ display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 13px; color: {INK_2}; }}
   #panel-head .chip {{ width: 20px; height: 20px; border-radius: 5px; background: {example_hex}; }}
   #panel-head b {{ color: {INK}; }}
@@ -871,7 +874,7 @@ def budget_widget_html(
   <div id="legend">{legend}</div>
   {"".join(svg)}
   <div id="panel">
-    <div id="panel-head"><span class="chip"></span><span id="panel-label"></span></div>
+    <div id="panel-head"><span class="chip"></span><span id="panel-label"></span><span id="scroll-more" style="display:none">· scroll for more</span></div>
     <div id="prose"></div>
   </div>
   <div id="hint">Hover or tap a budget on the chart to read how the describer spent it on {example_hex}.</div>
@@ -879,6 +882,8 @@ def budget_widget_html(
 <script>
 const DATA = {json.dumps(data)};
 const cursor = document.getElementById("cursor");
+const panel = document.getElementById("panel");
+const scrollMore = document.getElementById("scroll-more");
 const panelLabel = document.getElementById("panel-label");
 const prose = document.getElementById("prose");
 
@@ -894,6 +899,10 @@ function activate(budget) {{
   panelLabel.innerHTML = `<b>${{budget}}-word budget</b> · ${{stats}}` +
     (p ? ` · this description scored ${{p.score.toFixed(1)}}` : "");
   prose.textContent = p ? p.text : "No example description at this budget.";
+  panel.scrollTop = 0;
+  requestAnimationFrame(() => {{
+    scrollMore.style.display = panel.scrollHeight > panel.clientHeight + 4 ? "inline" : "none";
+  }});
 }}
 for (const hit of document.querySelectorAll(".hit")) {{
   const b = hit.dataset.budget;

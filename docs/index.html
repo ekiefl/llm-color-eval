@@ -6,11 +6,12 @@
 <title>Beat the AI at colors</title>
 <style>
   * { box-sizing: border-box; margin: 0; user-select: none; -webkit-user-select: none; }
+  html { height: 100%; }
   body {
     background: #101317; color: #e8ecf1;
     font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
-    display: flex; justify-content: center;
-    padding: 10px;
+    display: flex; justify-content: center; align-items: center;
+    padding: 10px; min-height: 100%;
   }
   #card {
     position: relative; width: min(490px, 100%);
@@ -53,12 +54,12 @@
     #intro-screen p { font-size: 13px; margin-bottom: 8px; line-height: 1.4; }
     #intro-screen p[style] { margin-bottom: 14px !important; }
     .big-btn { padding: 10px 24px; font-size: 15px; }
-    #round-score { font-size: 28px; }
-    #verdict { font-size: 12px; margin-top: 3px; }
+    #round-score { font-size: 26px; }
+    #verdict { font-size: 13px; }
     .tag { font-size: 10px; padding: 2px 8px; }
     #tag-you { top: 8px; left: 8px; }
     #tag-truth { bottom: 8px; right: 8px; }
-    #reveal-overlay { top: 8px; right: 10px; }
+    #reveal-overlay { margin: 0 10px 8px; gap: 8px; }
     #compare-wrap { margin: 10px; }
     #ai-desc { font-size: 11px; margin-bottom: 6px; }
     .ai-chip { padding: 7px 10px; gap: 8px; }
@@ -110,10 +111,11 @@
   #tag-you { top: 12px; left: 12px; }
   #tag-truth { bottom: 12px; right: 12px; }
   #reveal-overlay {
-    position: absolute; top: 12px; right: 14px; text-align: right; pointer-events: none;
+    text-align: center; margin: 0 16px 10px;
+    display: flex; align-items: baseline; justify-content: center; gap: 12px;
   }
-  #round-score { font-size: 48px; font-weight: 800; color: #fff; text-shadow: 0 2px 14px rgba(0,0,0,.5); line-height: 1; }
-  #verdict { color: #fff; text-shadow: 0 1px 8px rgba(0,0,0,.6); font-size: 16px; font-weight: 600; margin-top: 6px; }
+  #round-score { font-size: 36px; font-weight: 800; color: #fff; line-height: 1; }
+  #verdict { color: #9aa5b1; font-size: 16px; font-weight: 600; }
   #ai-panel { padding: 0 20px 18px; }
   #ai-desc { color: #9aa5b1; font-size: 13px; font-style: italic; margin-bottom: 10px; }
   #ai-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 14px; }
@@ -163,11 +165,11 @@
         </svg>
         <span class="tag" id="tag-you">Your selection</span>
         <span class="tag" id="tag-truth">Original</span>
-        <div id="reveal-overlay">
-          <div id="round-score"></div>
-          <div id="verdict"></div>
-        </div>
       </div>
+    </div>
+    <div id="reveal-overlay">
+      <span id="round-score"></span>
+      <span id="verdict"></span>
     </div>
     <div id="ai-panel">
       <div id="ai-desc"></div>
