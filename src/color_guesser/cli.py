@@ -303,7 +303,6 @@ def export_widget(
                 (description_id,),
             )
         }
-        difficulty = statistics.mean(g["score"] for g in guesses.values())
         trials.append(
             {
                 "hex": hex_code,
@@ -311,22 +310,16 @@ def export_widget(
                 "budget": max_words,
                 "describer": describer,
                 "guesses": guesses,
-                "difficulty": difficulty,
             }
         )
     conn.close()
-    trials.sort(key=lambda trial: trial["difficulty"])
     seen = set()
     unique = []
     for trial in trials:
         if trial["hex"] not in seen:
             seen.add(trial["hex"])
             unique.append(trial)
-    step = len(unique) / min(n, len(unique))
-    sampled = [unique[int(i * step)] for i in range(min(n, len(unique)))]
-    for trial in sampled:
-        del trial["difficulty"]
-    random.Random(0).shuffle(sampled)
+    sampled = random.Random(0).sample(unique, min(n, len(unique)))
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(sampled, indent=1))
     typer.echo(f"Wrote {len(sampled)} trials to {output}")
