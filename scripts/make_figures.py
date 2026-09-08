@@ -707,7 +707,7 @@ def hue_combined_svg(db_path: Path) -> str:
     path = " ".join(f"{'M' if i == 0 else 'L'} {sx(h):.1f} {sy(m):.1f}" for i, (h, m) in enumerate(trend))
     parts.append(f'<path d="{path}" fill="none" stroke="{INK}" stroke-width="4.5"/>')
 
-    cx, cy = 950, 258
+    cx, cy = 950, 285
     r0, r1 = 46, 150
     band0, band1 = r1 + 26, r1 + 72
     t_lo = min(m for _, m in trend) - 0.08
@@ -851,7 +851,7 @@ def budget_widget_html(
 <style>
   * {{ box-sizing: border-box; margin: 0; }}
   body {{ background: #fff; color: #0b0b0b; font: 15px/1.5 system-ui, -apple-system, sans-serif; padding: 10px; }}
-  #wrap {{ max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; min-height: calc(100dvh - 20px); }}
+  #wrap {{ max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; min-height: 545px; }}
   .tick {{ font-size: 16px; fill: {INK_2}; font-family: system-ui, sans-serif; }}
   svg {{ width: 100%; height: auto; display: block; }}
   .hit {{ cursor: pointer; }}
