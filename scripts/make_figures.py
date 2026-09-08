@@ -672,13 +672,13 @@ def hue_combined_svg(db_path: Path) -> str:
         trend.append((h, statistics.mean(window)))
     cells, lo, hi, n_colors = _heat_cells(db_path)
 
-    width, height = 1240, 560
+    width, height = 1240, 590
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" font-family="sans-serif">',
         f'<rect width="{width}" height="{height}" fill="#ffffff"/>',
     ]
 
-    left, right_edge, top, bottom = 60, 640, 40, 100
+    left, right_edge, top, bottom = 80, 640, 40, 110
     y_min, y_max = 2.0, 10.0
 
     def sx(hue: float) -> float:
@@ -690,19 +690,19 @@ def hue_combined_svg(db_path: Path) -> str:
     for tick in (2, 4, 6, 8, 10):
         y = sy(tick)
         parts.append(f'<line x1="{left}" y1="{y}" x2="{right_edge}" y2="{y}" stroke="{GRID}"/>')
-        parts.append(svg_text(left - 10, y + 4, str(tick), 12, INK_2, "end", "400"))
+        parts.append(svg_text(left - 10, y + 4, str(tick), 18, INK_2, "end", "400"))
     for tick in range(0, 361, 60):
-        parts.append(svg_text(sx(tick), height - bottom + 22, f"{tick}°", 12, INK_2, "middle", "400"))
-    parts.append(svg_text((left + right_edge) / 2, height - bottom + 44, "hue", 13, INK_2, "middle", "400"))
+        parts.append(svg_text(sx(tick), height - bottom + 22, f"{tick}°", 18, INK_2, "middle", "400"))
+    parts.append(svg_text((left + right_edge) / 2, height - bottom + 44, "hue", 20, INK_2, "middle", "400"))
     parts.append(
-        f'<text x="18" y="{top + (height - top - bottom) / 2}" font-family="{FONT}" font-size="13"'
+        f'<text x="24" y="{top + (height - top - bottom) / 2}" font-family="{FONT}" font-size="20"'
         f' fill="{INK_2}" text-anchor="middle"'
-        f' transform="rotate(-90 18 {top + (height - top - bottom) / 2})">mean score (0–10)</text>'
+        f' transform="rotate(-90 24 {top + (height - top - bottom) / 2})">mean score (0–10)</text>'
     )
     for hue, mean, hex_code in points:
-        parts.append(f'<circle cx="{sx(hue):.1f}" cy="{sy(mean):.1f}" r="3" fill="{hex_code}" fill-opacity="0.75"/>')
+        parts.append(f'<circle cx="{sx(hue):.1f}" cy="{sy(mean):.1f}" r="4.5" fill="{hex_code}" fill-opacity="0.75"/>')
     path = " ".join(f"{'M' if i == 0 else 'L'} {sx(h):.1f} {sy(m):.1f}" for i, (h, m) in enumerate(trend))
-    parts.append(f'<path d="{path}" fill="none" stroke="{INK}" stroke-width="2.5"/>')
+    parts.append(f'<path d="{path}" fill="none" stroke="{INK}" stroke-width="3.5"/>')
 
     cx, cy = 950, 258
     r0, r1 = 46, 150
@@ -740,27 +740,27 @@ def hue_combined_svg(db_path: Path) -> str:
     def band_r(value: float) -> float:
         return band0 + (value - t_lo) / (t_hi - t_lo) * (band1 - band0)
 
-    for ref in (8.0, 8.5):
+    for ref, angle in ((8.0, 302), (8.5, 334)):
         parts.append(f'<circle cx="{cx}" cy="{cy}" r="{band_r(ref):.1f}" fill="none" stroke="{GRID}" stroke-width="1"/>')
-        rx, ry = point_at(318, band_r(ref))
-        parts.append(svg_text(rx, ry - 3, f"{ref:.1f}", 10, INK_2, "middle", "400"))
+        rx, ry = point_at(angle, band_r(ref))
+        parts.append(svg_text(rx, ry - 3, f"{ref:.1f}", 15, INK_2, "middle", "400"))
     ring_path = " ".join(
         f"{'M' if i == 0 else 'L'} {point_at(h, band_r(m))[0]:.1f} {point_at(h, band_r(m))[1]:.1f}"
         for i, (h, m) in enumerate(trend)
     )
-    parts.append(f'<path d="{ring_path} Z" fill="none" stroke="{INK}" stroke-width="2.5"/>')
+    parts.append(f'<path d="{ring_path} Z" fill="none" stroke="{INK}" stroke-width="3.5"/>')
     for hue in (0, 90, 180, 270):
-        x, y = point_at(hue, band1 + 16)
-        parts.append(svg_text(x, y + 4, f"{hue}°", 12, INK_2, "middle", "400"))
-    bar_x, bar_y, bar_w = cx - 90, height - 34, 180
+        x, y = point_at(hue, band1 + 22)
+        parts.append(svg_text(x, y + 4, f"{hue}°", 18, INK_2, "middle", "400"))
+    bar_x, bar_y, bar_w = cx - 105, height - 38, 210
     for k in range(40):
         parts.append(
-            f'<rect x="{bar_x + k * bar_w / 40}" y="{bar_y}" width="{bar_w / 40 + 0.5}" height="10"'
+            f'<rect x="{bar_x + k * bar_w / 40}" y="{bar_y}" width="{bar_w / 40 + 0.5}" height="13"'
             f' fill="{_ramp(lo + (hi - lo) * k / 39, lo, hi)}"/>'
         )
-    parts.append(svg_text(bar_x - 8, bar_y + 9, f"{lo:.1f}", 11, INK_2, "end", "400"))
-    parts.append(svg_text(bar_x + bar_w + 8, bar_y + 9, f"{hi:.1f}", 11, INK_2, "start", "400"))
-    parts.append(svg_text(bar_x + bar_w / 2, bar_y - 6, "cell mean score", 11, INK_2, "middle", "400"))
+    parts.append(svg_text(bar_x - 8, bar_y + 9, f"{lo:.1f}", 16, INK_2, "end", "400"))
+    parts.append(svg_text(bar_x + bar_w + 8, bar_y + 9, f"{hi:.1f}", 16, INK_2, "start", "400"))
+    parts.append(svg_text(bar_x + bar_w / 2, bar_y - 10, "cell mean score", 16, INK_2, "middle", "400"))
     parts.append("</svg>")
     return "".join(parts)
 
@@ -829,7 +829,10 @@ def budget_widget_html(
             f' height="{height - top - bottom}" fill="transparent"/>'
         )
     svg.append(f'<rect id="cursor" x="0" y="{top}" width="24" height="{height - top - bottom}" fill="#0b0b0b" opacity="0" rx="6"/>')
-    svg.append(f'<text x="{left}" y="16" class="tick">mean score, error bars ±1 SE</text>')
+    svg.append(f'<text x="{left}" y="16" class="tick">error bars ±1 SE</text>')
+    svg.append(f'<text x="{left + (width - left - right) / 2}" y="{height - 4}" text-anchor="middle" class="tick">word budget</text>')
+    svg.append(f'<text x="14" y="{top + (height - top - bottom) / 2}" text-anchor="middle" class="tick"'
+               f' transform="rotate(-90 14 {top + (height - top - bottom) / 2})">mean score (0–10)</text>')
     svg.append("</svg>")
 
     legend = "".join(
