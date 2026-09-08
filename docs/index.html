@@ -302,7 +302,7 @@ function reveal() {
     won ? "You won." :
     beaten > 0 ? `You beat ${ais.filter(a => yourScore > a.score).map(a => a.name).join(", ")}, but lost overall.` :
     "You lost.";
-  $("ai-desc").textContent = `The AI only got: “${trial.description}”`;
+  $("ai-desc").textContent = `The AI got: “${trial.description}”`;
   $("ai-row").innerHTML = ais.map(a => `
     <div class="ai-chip"><div class="dot" style="background:${a.hex}"></div>
       <div><div class="ai-name">${a.name}</div><b>${a.score.toFixed(2)}</b></div></div>`).join("");

@@ -1,1801 +1,1801 @@
 [
  {
-  "hex": "#779716",
-  "description": "Muted olive green",
-  "budget": 5,
+  "hex": "#447f38",
+  "description": "A muted forest green, medium-dark in tone, leaning slightly olive\u2014like moss-covered tree bark or dense summer foliage in low light.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#6b6b3a",
-    "score": 6.68
-   }
-  }
- },
- {
-  "hex": "#73864c",
-  "description": "Muted, dark olive green.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5c5f3d",
-    "score": 7.32
-   }
-  }
- },
- {
-  "hex": "#a53491",
-  "description": "Deep magenta-pink, rich raspberry hue",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8b2252",
-    "score": 7.4
-   }
-  }
- },
- {
-  "hex": "#bccf6e",
-  "description": "Muted yellow-green, light olive shade",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#b5b35c",
-    "score": 8.75
-   }
-  }
- },
- {
-  "hex": "#5156c0",
-  "description": "Medium slate blue, bold purple-blue",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#7b68ee",
-    "score": 8.2
-   }
-  }
- },
- {
-  "hex": "#722b53",
-  "description": "Deep dark plum purple",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4b0082",
-    "score": 5.97
-   }
-  }
- },
- {
-  "hex": "#2d1ecc",
-  "description": "Deep vivid blue-violet, richly saturated",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4b0082",
-    "score": 7.72
-   }
-  }
- },
- {
-  "hex": "#907eb5",
-  "description": "Muted medium purple, slightly grayish",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8b7b9b",
-    "score": 9.04
-   }
-  }
- },
- {
-  "hex": "#5d7395",
-  "description": "Muted slate blue-gray",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#6e7f8d",
-    "score": 8.67
-   }
-  }
- },
- {
-  "hex": "#819461",
-  "description": "Muted, grayish olive green.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#6b6b4f",
-    "score": 6.75
-   }
-  }
- },
- {
-  "hex": "#317a1b",
-  "description": "Deep mossy forest green",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#355e3b",
-    "score": 7.25
-   }
-  }
- },
- {
-  "hex": "#7aabce",
-  "description": "Soft muted sky blue",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#87ceeb",
-    "score": 8.46
-   }
-  }
- },
- {
-  "hex": "#a84aad",
-  "description": "Deep purple with magenta undertones",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5d1f8a",
-    "score": 6.39
-   }
-  }
- },
- {
-  "hex": "#cbb078",
-  "description": "Warm muted golden tan",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#c9a66b",
-    "score": 9.67
-   }
-  }
- },
- {
-  "hex": "#899317",
-  "description": "Dark olive-green with yellow undertones.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#556b2f",
-    "score": 6.51
-   }
-  }
- },
- {
-  "hex": "#a1453e",
-  "description": "Deep muted brick red, earthy",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8b3a2b",
-    "score": 9.2
-   }
-  }
- },
- {
-  "hex": "#4d25a9",
-  "description": "Deep violet purple, vivid",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5d0080",
-    "score": 8.36
-   }
-  }
- },
- {
-  "hex": "#753681",
-  "description": "Deep muted magenta-purple.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8b3a62",
-    "score": 7.54
-   }
-  }
- },
- {
-  "hex": "#3941b2",
-  "description": "Deep vivid indigo-blue",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4b0082",
-    "score": 6.85
-   }
-  }
- },
- {
-  "hex": "#44e4b6",
-  "description": "**Bright vibrant minty teal**",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#1fcea0",
-    "score": 9.36
-   }
-  }
- },
- {
-  "hex": "#6835a3",
-  "description": "Rich medium purple, slightly violet",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8a2be2",
-    "score": 8.57
-   }
-  }
- },
- {
-  "hex": "#a31f7b",
-  "description": "Deep magenta purple, vivid",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8b008b",
-    "score": 8.58
-   }
-  }
- },
- {
-  "hex": "#372a86",
-  "description": "Deep indigo purple, dark violet-blue.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4b0082",
-    "score": 8.53
-   }
-  }
- },
- {
-  "hex": "#663995",
-  "description": "Muted purple with grayish undertone",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8a7a8c",
-    "score": 5.02
-   }
-  }
- },
- {
-  "hex": "#cf96de",
-  "description": "Soft, pale lavender-purple pastel.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#d8bfd8",
-    "score": 7.42
-   }
-  }
- },
- {
-  "hex": "#933719",
-  "description": "Deep muted brownish red wine",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5c2028",
-    "score": 6.33
-   }
-  }
- },
- {
-  "hex": "#4f1767",
-  "description": "Deep dark purple, almost eggplant",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#3f1f3f",
-    "score": 8.09
-   }
-  }
- },
- {
-  "hex": "#639b4e",
-  "description": "Muted olive-green, medium brightness",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#7d8b4c",
-    "score": 8.29
-   }
-  }
- },
- {
-  "hex": "#52722d",
-  "description": "Deep warm brown, chocolate-like.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#3c1f0f",
-    "score": 3.45
-   }
-  }
- },
- {
-  "hex": "#822261",
-  "description": "Deep purple, dark violet-magenta hue",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4b0082",
-    "score": 6.28
-   }
-  }
- },
- {
-  "hex": "#a34cc1",
-  "description": "Vivid purple, medium-bright, saturated violet",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8f00ff",
-    "score": 8.02
-   }
-  }
- },
- {
-  "hex": "#712819",
-  "description": "Deep reddish-brown, like rust.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#b7410e",
-    "score": 7.22
-   }
-  }
- },
- {
-  "hex": "#56723f",
-  "description": "Muted olive brown, earthy",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#6b5b35",
-    "score": 6.46
-   }
-  }
- },
- {
-  "hex": "#6ac8b8",
-  "description": "Soft teal with muted green",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5f9e93",
-    "score": 8.23
-   }
-  }
- },
- {
-  "hex": "#3add47",
-  "description": "Bright grass green, medium brightness",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4caf50",
-    "score": 8.11
-   }
-  }
- },
- {
-  "hex": "#cc6c81",
-  "description": "Dusty rose pink, medium tone",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#c08081",
-    "score": 8.83
-   }
-  }
- },
- {
-  "hex": "#e5b362",
-  "description": "Warm golden tan, moderately light.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#d2a679",
-    "score": 8.8
-   }
-  }
- },
- {
-  "hex": "#4c8490",
-  "description": "Muted slate blue-green",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5f7a7a",
-    "score": 8.92
-   }
-  }
- },
- {
-  "hex": "#c88c74",
-  "description": "Dusty muted terracotta brown",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#a0654d",
-    "score": 7.87
-   }
-  }
- },
- {
-  "hex": "#67c8d1",
-  "description": "Soft medium teal, sky-tinted",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5fa8a0",
-    "score": 8.19
-   }
-  }
- },
- {
-  "hex": "#957168",
-  "description": "Muted dark grayish purple-brown",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5a4d53",
-    "score": 6.18
-   }
-  }
- },
- {
-  "hex": "#9b3ccc",
-  "description": "Vivid purple with blue undertone",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#7f00ff",
-    "score": 8.55
-   }
-  }
- },
- {
-  "hex": "#2ba2d8",
-  "description": "Bright sky blue, medium saturation",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4a9fe0",
-    "score": 9.41
-   }
-  }
- },
- {
-  "hex": "#6a1119",
-  "description": "Deep dark maroon-red, blackish wine",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#3b0f0f",
-    "score": 8.41
-   }
-  }
- },
- {
-  "hex": "#148272",
-  "description": "Dark teal with green undertones.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#004d4d",
-    "score": 6.9
-   }
-  }
- },
- {
-  "hex": "#7e5c50",
-  "description": "Muted grayish brown, warm taupe",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8b7d6b",
-    "score": 7.18
-   }
-  }
- },
- {
-  "hex": "#4a596d",
-  "description": "Muted slate blue-gray",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#6e7f8d",
-    "score": 7.56
-   }
-  }
- },
- {
-  "hex": "#178740",
-  "description": "Deep emerald green",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#046307",
-    "score": 7.52
-   }
-  }
- },
- {
-  "hex": "#83a754",
-  "description": "Muted, medium olive green.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#6b6b3a",
-    "score": 5.57
-   }
-  }
- },
- {
-  "hex": "#5ccaae",
-  "description": "Soft teal green, seafoam-like.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#93e9be",
-    "score": 8.43
-   }
-  }
- },
- {
-  "hex": "#845293",
-  "description": "Muted, dusty medium purple.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8b7b9b",
-    "score": 7.27
-   }
-  }
- },
- {
-  "hex": "#cc395b",
-  "description": "Deep raspberry pink, slightly muted",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8c2c5a",
-    "score": 7.15
-   }
-  }
- },
- {
-  "hex": "#8db864",
-  "description": "**Muted, medium olive green**",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#6b6b3a",
-    "score": 4.84
-   }
-  }
- },
- {
-  "hex": "#867959",
-  "description": "Deep muted brown, slightly reddish",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4a2c2a",
-    "score": 4.15
-   }
-  }
- },
- {
-  "hex": "#513cba",
-  "description": "Vivid violet-blue, medium brightness",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4b0fd4",
-    "score": 8.97
-   }
-  }
- },
- {
-  "hex": "#4e932a",
-  "description": "**Muted olive green, medium-dark, earthy**",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#6b6b3a",
-    "score": 6.1
-   }
-  }
- },
- {
-  "hex": "#964c81",
-  "description": "Dusty muted plum purple.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8b7089",
-    "score": 7.81
-   }
-  }
- },
- {
-  "hex": "#c0c887",
-  "description": "Muted yellow-green, olive-ish tone",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8a8a4f",
-    "score": 7.05
-   }
-  }
- },
- {
-  "hex": "#73872c",
-  "description": "Deep warm rust brown.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8b3a2b",
-    "score": 2.86
-   }
-  }
- },
- {
-  "hex": "#6abf9a",
-  "description": "Soft muted mint green.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#98d8c8",
-    "score": 8.35
-   }
-  }
- },
- {
-  "hex": "#df92b4",
-  "description": "Dusty medium pink, rosy mauve",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#c08081",
-    "score": 7.37
-   }
-  }
- },
- {
-  "hex": "#2c801b",
-  "description": "Medium-dark, slightly muted grass green",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5a8f3c",
-    "score": 8.78
-   }
-  }
- },
- {
-  "hex": "#4f966a",
-  "description": "Muted teal-green, medium shade.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4a8073",
-    "score": 7.7
-   }
-  }
- },
- {
-  "hex": "#afab2e",
-  "description": "Muted olive yellow-green",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8a8b4e",
-    "score": 7.88
-   }
-  }
- },
- {
-  "hex": "#762564",
-  "description": "Deep dark purple, muted",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4b2e4e",
-    "score": 8.09
-   }
-  }
- },
- {
-  "hex": "#82c748",
-  "description": "Bright yellowish-green, like fresh grass",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#7cfc00",
-    "score": 8.0
-   }
-  }
- },
- {
-  "hex": "#5ba36c",
-  "description": "Muted medium green, slightly yellowish-toned",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#7a8b4f",
-    "score": 7.29
-   }
-  }
- },
- {
-  "hex": "#4a5d7e",
-  "description": "Muted slate blue, medium-dark tone",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5a6d80",
-    "score": 8.85
-   }
-  }
- },
- {
-  "hex": "#17cd31",
-  "description": "Bright vibrant grass green",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4caf50",
-    "score": 8.6
-   }
-  }
- },
- {
-  "hex": "#d291d5",
-  "description": "Soft medium purple, slightly pinkish",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#9370b0",
-    "score": 6.97
-   }
-  }
- },
- {
-  "hex": "#6a4c3f",
-  "description": "Warm medium brown, slightly muted",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8b5a2b",
-    "score": 7.84
-   }
-  }
- },
- {
-  "hex": "#3c665e",
-  "description": "Deep muted teal, greenish-blue gray",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#2f4f4f",
-    "score": 8.66
-   }
-  }
- },
- {
-  "hex": "#c58566",
-  "description": "Warm medium brown, slightly orange-tan.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#a0653f",
-    "score": 8.06
-   }
-  }
- },
- {
-  "hex": "#de535e",
-  "description": "Warm coral red, slightly pink",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#ff6f61",
-    "score": 8.25
-   }
-  }
- },
- {
-  "hex": "#b38e66",
-  "description": "Muted golden tan, medium brown",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#b0925a",
-    "score": 9.29
-   }
-  }
- },
- {
-  "hex": "#54708f",
-  "description": "Muted medium purple, slightly grayish",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8b7b9b",
-    "score": 6.03
-   }
-  }
- },
- {
-  "hex": "#922e5c",
-  "description": "Deep dusky purplish magenta wine",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#732040",
-    "score": 8.94
-   }
-  }
- },
- {
-  "hex": "#7f2bb5",
-  "description": "Deep vibrant purple, slightly blue-leaning",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5d3fd3",
-    "score": 8.48
-   }
-  }
- },
- {
-  "hex": "#3d71ae",
-  "description": "Medium slate blue, muted",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#6a5acd",
-    "score": 7.03
-   }
-  }
- },
- {
-  "hex": "#127d5f",
-  "description": "Deep muted forest green",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#2e4635",
-    "score": 5.94
-   }
-  }
- },
- {
-  "hex": "#5aab2c",
-  "description": "Muted olive-leaf green, moderately bright.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8a9a5b",
-    "score": 7.6
-   }
-  }
- },
- {
-  "hex": "#6c1a65",
-  "description": "Deep dark plum purple.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4b0082",
-    "score": 7.67
-   }
-  }
- },
- {
-  "hex": "#9671ca",
-  "description": "Medium purple, moderately saturated violet",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8a5fbf",
-    "score": 9.25
-   }
-  }
- },
- {
-  "hex": "#835f3d",
-  "description": "Warm medium brown, slightly muted",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8b5a2b",
-    "score": 9.52
-   }
-  }
- },
- {
-  "hex": "#2ebf30",
-  "description": "Vivid, bright grass green",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4cbb17",
-    "score": 9.62
-   }
-  }
- },
- {
-  "hex": "#991940",
-  "description": "Deep dark burgundy red",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4a0e1e",
-    "score": 7.49
-   }
-  }
- },
- {
-  "hex": "#18bdb6",
-  "description": "Bright teal, slightly green-tinted turquoise.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#00cc99",
-    "score": 7.75
-   }
-  }
- },
- {
-  "hex": "#9d5d2c",
-  "description": "Warm medium brown, slightly orange",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#b5651d",
-    "score": 9.15
-   }
-  }
- },
- {
-  "hex": "#386f3f",
-  "description": "Muted dark forest green",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#2e4034",
-    "score": 6.78
-   }
-  }
- },
- {
-  "hex": "#6d7012",
-  "description": "Dark murky olive green.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#3b3c22",
-    "score": 6.71
-   }
-  }
- },
- {
-  "hex": "#ab6e6a",
-  "description": "Muted dusty rosy brown",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#a8807a",
-    "score": 9.08
-   }
-  }
- },
- {
-  "hex": "#ab2041",
-  "description": "Deep raspberry red, slightly pink",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#c2185b",
-    "score": 9.0
-   }
-  }
- },
- {
-  "hex": "#3397d7",
-  "description": "Bright vivid cobalt blue",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#0047ab",
-    "score": 5.37
-   }
-  }
- },
- {
-  "hex": "#b6575d",
-  "description": "Dusty muted brick red",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#a15c4a",
-    "score": 8.4
-   }
-  }
- },
- {
-  "hex": "#33725d",
-  "description": "Deep muted teal green.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#2f4f4f",
-    "score": 7.1
-   }
-  }
- },
- {
-  "hex": "#7bcc9d",
-  "description": "Soft muted mint green",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#98d8c8",
-    "score": 8.17
-   }
-  }
- },
- {
-  "hex": "#d4d061",
-  "description": "Muted olive yellow, dull",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8c8c4b",
-    "score": 6.82
-   }
-  }
- },
- {
-  "hex": "#7cb31d",
-  "description": "Bright yellowish-green, grassy leaf color",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#7cfc00",
-    "score": 7.12
-   }
-  }
- },
- {
-  "hex": "#878c3b",
-  "description": "Muted olive green.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#6b6b47",
-    "score": 7.63
-   }
-  }
- },
- {
-  "hex": "#9c523f",
-  "description": "Muted terracotta brown, earthy.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#b06848",
-    "score": 8.7
-   }
-  }
- },
- {
-  "hex": "#539010",
-  "description": "Deep muted purple, grape-like",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4c2f5d",
-    "score": 1.57
-   }
-  }
- },
- {
-  "hex": "#614089",
-  "description": "Deep muted purple, dusky violet",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5d3a5e",
-    "score": 7.95
-   }
-  }
- },
- {
-  "hex": "#57ab97",
-  "description": "Muted teal green, medium brightness",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4a8477",
-    "score": 8.05
-   }
-  }
- },
- {
-  "hex": "#dc3d42",
-  "description": "Bright brick red, slightly warm.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#b22222",
-    "score": 8.31
-   }
-  }
- },
- {
-  "hex": "#854384",
-  "description": "Muted medium purple, slightly magenta-toned.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8b6699",
-    "score": 8.13
-   }
-  }
- },
- {
-  "hex": "#1ad396",
-  "description": "Bright teal green, medium-vivid",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#009975",
-    "score": 7.34
-   }
-  }
- },
- {
-  "hex": "#7d60a2",
-  "description": "Muted medium purple, slightly grayish",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8b7b9b",
-    "score": 8.16
-   }
-  }
- },
- {
-  "hex": "#82793f",
-  "description": "Muted dark olive brown.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4a4032",
-    "score": 5.78
-   }
-  }
- },
- {
-  "hex": "#29711e",
-  "description": "Deep dark reddish brown",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4a2020",
-    "score": 2.46
-   }
-  }
- },
- {
-  "hex": "#737ca7",
-  "description": "Muted grayish periwinkle blue.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#8a8fa6",
-    "score": 8.64
-   }
-  }
- },
- {
-  "hex": "#696ca1",
-  "description": "Muted grayish blue-purple",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#6e6e8f",
-    "score": 9.32
-   }
-  }
- },
- {
-  "hex": "#a89e30",
-  "description": "Dark olive yellow-green.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4a4a1f",
-    "score": 5.2
-   }
-  }
- },
- {
-  "hex": "#88d096",
-  "description": "Soft yellowish-green, medium brightness",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#b5c46a",
-    "score": 6.87
-   }
-  }
- },
- {
-  "hex": "#dd695c",
-  "description": "Muted coral red, medium brightness",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#c46a5e",
-    "score": 9.46
-   }
-  }
- },
- {
-  "hex": "#6b949f",
-  "description": "Muted grayish-blue teal",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#5f7e7e",
-    "score": 8.51
-   }
-  }
- },
- {
-  "hex": "#aa5e79",
-  "description": "Muted dusty rose pink",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#c08081",
+    "hex": "#4a5d3a",
     "score": 7.47
    }
   }
  },
  {
-  "hex": "#476b5c",
-  "description": "Muted dark grayish forest green.",
-  "budget": 5,
+  "hex": "#467654",
+  "description": "A muted, deep forest green with a grayish undertone\u2014think moss growing on damp stone, or pine needles seen in dim, overcast light.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#3b4a3d",
-    "score": 7.58
+    "hex": "#4a5d4e",
+    "score": 8.23
    }
   }
  },
  {
-  "hex": "#3c9e7e",
-  "description": "Muted teal green, medium brightness.",
-  "budget": 5,
+  "hex": "#ca4656",
+  "description": "A muted brick red, warm and dusty with a slight rosy pink undertone\u2014like faded terracotta or a worn red rose petal.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#4a7a6f",
-    "score": 7.76
+    "hex": "#b3665a",
+    "score": 8.31
    }
   }
  },
  {
-  "hex": "#4b8dc6",
-  "description": "Medium sky blue, moderately bright",
-  "budget": 5,
+  "hex": "#386d7b",
+  "description": "A muted, deep teal-blue-green \u2014 like a stormy ocean or dark slate blue-green, with soft grayish undertones and moderate darkness overall.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#87ceeb",
-    "score": 6.63
+    "hex": "#3b6e71",
+    "score": 9.36
    }
   }
  },
  {
-  "hex": "#d79d49",
-  "description": "Warm muted golden mustard brown",
-  "budget": 5,
+  "hex": "#4a5077",
+  "description": "A muted, dark slate blue-purple with a soft grayish tone \u2014 like dusky twilight sky, deep and cool, low brightness, low saturation, leaning subtly violet.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#b8860b",
-    "score": 8.62
+    "hex": "#4b4b5e",
+    "score": 8.96
    }
   }
  },
  {
-  "hex": "#36d320",
-  "description": "Bright vivid grass green",
-  "budget": 5,
+  "hex": "#89486e",
+  "description": "A dusty, muted mauve-brown\u2014like faded plum mixed with warm gray. Soft grayish purple with a brownish undertone, medium-dark in depth, gentle and subdued, evoking weathered wood or dried lavender.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#7cfc00",
-    "score": 7.98
-   }
-  }
- },
- {
-  "hex": "#5ae299",
-  "description": "Bright minty spring green",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#3eb489",
-    "score": 7.92
-   }
-  }
- },
- {
-  "hex": "#afd937",
-  "description": "Bright yellowish-green, like limes.",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#32cd32",
-    "score": 7.08
-   }
-  }
- },
- {
-  "hex": "#c16ad4",
-  "description": "Bright medium purple, slightly pink-tinted",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#b84fce",
-    "score": 9.17
-   }
-  }
- },
- {
-  "hex": "#2e27da",
-  "description": "Deep vivid indigo blue",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4b0082",
-    "score": 7.2
-   }
-  }
- },
- {
-  "hex": "#917ee0",
-  "description": "Bright, saturated purple with blue",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#7f00ff",
-    "score": 5.86
-   }
-  }
- },
- {
-  "hex": "#339c27",
-  "description": "Deep grassy medium green",
-  "budget": 5,
-  "describer": "anthropic:claude-sonnet-5",
-  "guesses": {
-   "anthropic:claude-sonnet-5": {
-    "hex": "#4b7a2f",
-    "score": 7.78
+    "hex": "#8b6f72",
+    "score": 6.62
    }
   }
  },
  {
   "hex": "#408080",
-  "description": "Muted teal gray, medium-dark",
-  "budget": 5,
+  "description": "A muted, medium-dark teal-gray \u2014 a grayish blue-green, like slate blending into dusty teal, cool and desaturated, similar to a stormy ocean shadow.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#4a6a6a",
-    "score": 8.69
+    "hex": "#4a6a6d",
+    "score": 8.58
    }
   }
  },
  {
-  "hex": "#e25d36",
-  "description": "Burnt orange, warm terracotta rust.",
-  "budget": 5,
+  "hex": "#4e6b83",
+  "description": "A muted, medium-dark blue-gray, like a stormy sky at dusk\u2014soft slate blue with a touch of gray, cool and understated, reminiscent of faded denim.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#b7410e",
-    "score": 8.03
+    "hex": "#5c6b7a",
+    "score": 9.53
    }
   }
  },
  {
-  "hex": "#a1aa16",
-  "description": "Murky olive-yellow green, muted",
-  "budget": 5,
+  "hex": "#d7a07e",
+  "description": "A warm, muted terracotta-tan, like light clay or pale caramel skin tone \u2014 soft peachy-brown with gentle warmth, similar to sun-kissed sand or dusty apricot.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#6b6b3a",
-    "score": 6.24
+    "hex": "#d2a679",
+    "score": 9.3
    }
   }
  },
  {
-  "hex": "#3c3ed6",
-  "description": "Deep vibrant blue-violet, indigo-like",
-  "budget": 5,
+  "hex": "#5273ac",
+  "description": "A medium-toned, slightly muted blue-purple\u2014like periwinkle mixed with violet, leaning more blue than pink, reminiscent of dusky lavender-indigo or classic denim-violet twilight tones.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#4b0082",
-    "score": 6.57
+    "hex": "#6a5acd",
+    "score": 7.58
    }
   }
  },
  {
-  "hex": "#d11cca",
-  "description": "Vivid magenta pink, bold",
-  "budget": 5,
+  "hex": "#8f3877",
+  "description": "A deep, muted magenta-purple \u2014 like dark plum or eggplant with a rosy undertone. Rich, dusky, and slightly dark, blending purple and pinkish-red in a smoky, wine-like hue.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#ff00aa",
-    "score": 7.94
+    "hex": "#5d3954",
+    "score": 8.18
    }
   }
  },
  {
-  "hex": "#d52932",
-  "description": "Bright warm red, slightly orange-tinted",
-  "budget": 5,
+  "hex": "#b99d74",
+  "description": "A warm, muted tan with golden-brown undertones\u2014like light caramel or sandy beige, soft and earthy, similar to weathered wood or pale desert sand.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#ff4500",
-    "score": 6.99
+    "hex": "#d2b48c",
+    "score": 9.14
    }
   }
  },
  {
-  "hex": "#33aa6d",
-  "description": "Muted medium green, slightly teal",
-  "budget": 5,
+  "hex": "#5097dd",
+  "description": "A medium-bright, saturated blue with a slight purple undertone\u2014like a vivid cornflower or periwinkle blue, cool and vibrant, similar to a clear daytime sky tinted with violet.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#5f9e8f",
-    "score": 7.65
+    "hex": "#4169e1",
+    "score": 7.14
    }
   }
  },
  {
-  "hex": "#657049",
-  "description": "Dark muted olive-brown",
-  "budget": 5,
+  "hex": "#cb6db8",
+  "description": "A medium-bright, muted magenta-pink with a hint of purple\u2014think orchid or bright bubblegum blossom, warm yet slightly dusty, not too dark or too pale.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#4a4326",
-    "score": 6.54
+    "hex": "#c76bb3",
+    "score": 9.94
    }
   }
  },
  {
-  "hex": "#6b7751",
-  "description": "Muted grayish olive green.",
-  "budget": 5,
+  "hex": "#994448",
+  "description": "A muted brick red, warm and dusty like weathered terracotta or faded barn wood, with a soft brownish undertone rather than a bright, vivid red.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#7d7d5c",
-    "score": 9.12
+    "hex": "#b0654a",
+    "score": 7.24
    }
   }
  },
  {
-  "hex": "#86c3a3",
-  "description": "Soft muted sage green.",
-  "budget": 5,
+  "hex": "#876626",
+  "description": "A warm, muted golden brown, like aged bronze or dark mustard. Think weathered leather or toasted amber with earthy, autumnal warmth and moderate darkness.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#9caf88",
-    "score": 7.8
+    "hex": "#8b6914",
+    "score": 9.69
    }
   }
  },
  {
-  "hex": "#bb31d7",
-  "description": "Vivid purple with pink undertones",
-  "budget": 5,
+  "hex": "#2c6f93",
+  "description": "A muted medium teal-blue, like a deep overcast sky over the ocean\u2014cool, slightly desaturated, with more blue than green, and moderate darkness.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#c71585",
-    "score": 6.94
+    "hex": "#4a6b7a",
+    "score": 9.06
    }
   }
  },
  {
-  "hex": "#3b7170",
-  "description": "Muted dark teal green",
-  "budget": 5,
+  "hex": "#82d24b",
+  "description": "A vivid, medium-bright yellowish green, like fresh spring grass or a ripe green apple, leaning more toward lime green than pure green or yellow.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#3b6357",
+    "hex": "#7cfc00",
+    "score": 8.42
+   }
+  }
+ },
+ {
+  "hex": "#4c824c",
+  "description": "A muted, medium forest green with grayish undertones\u2014like moss or sage leaves, softly earthy rather than bright, giving a calm, natural, slightly dusty green appearance.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7a8b6f",
+    "score": 7.72
+   }
+  }
+ },
+ {
+  "hex": "#5b4ebd",
+  "description": "A medium-toned, saturated purple-blue, like a bold periwinkle or indigo violet \u2014 cool, vivid, and somewhat deep, similar to a rich blueish grape or twilight sky.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#5a4fcf",
+    "score": 9.78
+   }
+  }
+ },
+ {
+  "hex": "#c04f70",
+  "description": "A deep, muted rose pink with a raspberry undertone\u2014warm and dusty, like a faded berry red leaning toward pink, medium-dark in tone.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b04a5a",
+    "score": 9.2
+   }
+  }
+ },
+ {
+  "hex": "#b18b45",
+  "description": "A warm, muted golden-brown, like antique brass or toasted mustard\u2014somewhere between honey and caramel, with a soft, earthy, slightly dusty undertone.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b8860b",
+    "score": 9.22
+   }
+  }
+ },
+ {
+  "hex": "#5a61a3",
+  "description": "A muted, medium-dark blue-purple \u2014 like dusty periwinkle or slate violet, with balanced coolness, moderate saturation, and a soft, twilight-sky quality.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6e6fa3",
+    "score": 9.18
+   }
+  }
+ },
+ {
+  "hex": "#886445",
+  "description": "A deep, muted plum brown with grayish undertones \u2014 dusky and warm, like aged mahogany mixed with charcoal, evoking rich, dark earthy wood.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4a3b3b",
+    "score": 5.72
+   }
+  }
+ },
+ {
+  "hex": "#d32eb9",
+  "description": "A vivid, saturated pink with a strong magenta undertone\u2014bright and bold, similar to fuchsia, leaning slightly toward purple rather than red.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#e0218a",
+    "score": 8.33
+   }
+  }
+ },
+ {
+  "hex": "#797829",
+  "description": "A dark, muted olive-green with a warm brownish undertone\u2014like dried moss, khaki grass, or an old olive drab military tone.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#5c5233",
+    "score": 7.07
+   }
+  }
+ },
+ {
+  "hex": "#c4a426",
+  "description": "A warm, muted golden-olive yellow, like aged brass or dried mustard, with a slightly dusty, earthy tone\u2014darker and less vivid than pure yellow.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b8964d",
+    "score": 8.86
+   }
+  }
+ },
+ {
+  "hex": "#6e48c6",
+  "description": "A deep, vivid violet-purple with a rich blue undertone \u2014 like blooming lavender flowers mixed with royal purple, medium-dark in brightness and strongly saturated.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a2be2",
+    "score": 9.02
+   }
+  }
+ },
+ {
+  "hex": "#54859b",
+  "description": "A muted, dusty purple with grayish undertones\u2014like faded lavender or lilac mixed with soft gray, medium-dark in tone, gentle and understated rather than vivid.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a7a8c",
+    "score": 4.56
+   }
+  }
+ },
+ {
+  "hex": "#1a7222",
+  "description": "A deep, muted forest green with a slightly dark, earthy tone\u2014like moss growing on damp tree bark in dim woodland light.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#3b4d3a",
+    "score": 6.95
+   }
+  }
+ },
+ {
+  "hex": "#7bde31",
+  "description": "A vivid, energetic yellow-green, like fresh spring grass or a ripe lime, bright and saturated with a lively, slightly warm leafy tone.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#a4d600",
+    "score": 8.78
+   }
+  }
+ },
+ {
+  "hex": "#b5647a",
+  "description": "A dusty, muted rose pink with a brownish undertone\u2014somewhere between mauve and faded raspberry, soft and slightly grayish rather than vivid or bright.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b08080",
+    "score": 8.16
+   }
+  }
+ },
+ {
+  "hex": "#2d7353",
+  "description": "A deep, muted forest green with a slight blue undertone\u2014like dark pine trees in shadowy woodland, earthy and subdued rather than bright.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#2f4538",
+    "score": 7.2
+   }
+  }
+ },
+ {
+  "hex": "#80a53b",
+  "description": "A medium olive green, leaning yellowish, moderately muted and earthy \u2014 like dried grass or a leafy shrub in late summer sunlight.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a9a5b",
+    "score": 8.97
+   }
+  }
+ },
+ {
+  "hex": "#b4ba31",
+  "description": "A muted, medium olive-yellow-green, like dried mustard grass or aged olive leaves\u2014earthy, warm, slightly dusty, with more yellow than green in its balance.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b5a642",
     "score": 8.87
    }
   }
  },
  {
-  "hex": "#cd8aaf",
-  "description": "Muted dusty rosy pink-mauve",
-  "budget": 5,
+  "hex": "#5f6841",
+  "description": "A muted, dark olive green with brownish-yellow undertones\u2014like dried moss or army fatigue fabric, earthy and desaturated, leaning slightly warm and grayish.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#b78a8a",
-    "score": 7.45
+    "hex": "#6b6b3a",
+    "score": 9.4
    }
   }
  },
  {
-  "hex": "#1c6e68",
-  "description": "Deep muted teal green",
-  "budget": 5,
+  "hex": "#df3c81",
+  "description": "A vivid, medium-dark pink with a strong magenta-red undertone\u2014like a bold raspberry or hot rose pink, energetic and warm, leaning more pink than purple.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#1f4d42",
-    "score": 8.14
+    "hex": "#e3006d",
+    "score": 9.4
    }
   }
  },
  {
-  "hex": "#9e21c0",
-  "description": "Vivid purple, magenta-leaning bright hue",
-  "budget": 5,
+  "hex": "#6866df",
+  "description": "A medium-toned periwinkle blue-purple, bright and moderately saturated, leaning more blue than violet, similar to a cornflower or soft indigo hue.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#cc00cc",
-    "score": 8.73
+    "hex": "#6a5acd",
+    "score": 9.45
    }
   }
  },
  {
-  "hex": "#734b9b",
-  "description": "Muted medium purple, grape-like.",
-  "budget": 5,
+  "hex": "#2d25a6",
+  "description": "A deep, saturated indigo-blue, leaning toward violet \u2014 like a twilight sky or dark royal purple-blue, rich and intense, with only a hint of red warmth.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#8b6f9e",
-    "score": 7.9
+    "hex": "#2e1a6e",
+    "score": 8.67
    }
   }
  },
  {
-  "hex": "#8ce44e",
-  "description": "Bright yellowish-green, like fresh lime.",
-  "budget": 5,
+  "hex": "#2b90c1",
+  "description": "A medium-toned, moderately saturated blue with a slight cyan tint\u2014like a clear sky over the ocean on a bright, calm afternoon.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#32cd32",
-    "score": 8.38
+    "hex": "#4a90d9",
+    "score": 8.94
    }
   }
  },
  {
-  "hex": "#e2c34e",
-  "description": "Muted golden yellow, mustard-like",
-  "budget": 5,
+  "hex": "#9d594d",
+  "description": "A warm, muted terracotta brown with reddish-clay undertones \u2014 like sun-baked earth or rustic brick, cozy and slightly dusty in appearance.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#c9a227",
+    "hex": "#b5651d",
+    "score": 6.78
+   }
+  }
+ },
+ {
+  "hex": "#785912",
+  "description": "A deep, muted golden-brown, like dark bronze or aged mustard. Warm and earthy, somewhat dark in tone, with rich amber undertones and very little brightness or blue.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b6914",
+    "score": 9.19
+   }
+  }
+ },
+ {
+  "hex": "#b7b06c",
+  "description": "A muted, grayish olive-yellow, like dried straw or faded khaki \u2014 soft and dusty, somewhere between beige and olive-green, gently muted rather than vivid.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b5a96a",
+    "score": 9.79
+   }
+  }
+ },
+ {
+  "hex": "#5cb698",
+  "description": "A muted medium teal-green, like sea glass or soft jade \u2014 cool, gentle, and slightly desaturated, sitting between green and blue-gray tones.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7eb0a0",
+    "score": 9.11
+   }
+  }
+ },
+ {
+  "hex": "#25e0bb",
+  "description": "A bright, vivid teal-green with a strong blue-green cast \u2014 like turquoise or aquamarine, cool and saturated, similar to tropical shallow-water ocean tones.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#00ced1",
+    "score": 7.77
+   }
+  }
+ },
+ {
+  "hex": "#a27035",
+  "description": "A warm, muted golden brown, like aged mustard mixed with caramel\u2014earthy and rich, similar to raw honey or weathered bronze in dim light.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b8860b",
+    "score": 8.12
+   }
+  }
+ },
+ {
+  "hex": "#244e86",
+  "description": "A deep, muted navy blue with a hint of steel gray\u2014dark and cool, like twilight sky over the ocean, calm and professional in tone.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#2c3e50",
+    "score": 8.43
+   }
+  }
+ },
+ {
+  "hex": "#343f69",
+  "description": "A deep, dusky blue-violet, like twilight sky just after sunset \u2014 muted, cool, and slightly grayish, with more blue than purple in its overall tone.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b5c7a",
+    "score": 8.4
+   }
+  }
+ },
+ {
+  "hex": "#19a598",
+  "description": "A deep, muted teal green with strong blue undertones\u2014like the color of a still forest pond or dark seafoam, rich and slightly dark, calm and cool.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#1f5c57",
+    "score": 6.09
+   }
+  }
+ },
+ {
+  "hex": "#2e75a3",
+  "description": "A medium-toned, slightly muted blue with a hint of gray, leaning toward slate blue \u2014 reminiscent of a calm, overcast sky or deep denim.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#5a7a9a",
+    "score": 9.13
+   }
+  }
+ },
+ {
+  "hex": "#1a15b5",
+  "description": "A deep, vivid indigo-blue with a strong violet undertone\u2014rich, saturated, and dark, like twilight sky just before nightfall, closer to blue than purple.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#2e1a6b",
+    "score": 8.2
+   }
+  }
+ },
+ {
+  "hex": "#790d42",
+  "description": "A deep, dark magenta-plum with a strong reddish-purple undertone\u2014rich like a ripe blackberry mixed with wine, very dark and slightly muted, not bright or pastel.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b0f3d",
+    "score": 8.1
+   }
+  }
+ },
+ {
+  "hex": "#47a31b",
+  "description": "A medium-dark, earthy olive green with a strong yellow undertone and a touch of brown \u2014 like moss or dried grass leaves, warm and slightly muted, not bright.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6b6b2a",
+    "score": 5.31
+   }
+  }
+ },
+ {
+  "hex": "#227461",
+  "description": "A deep, muted teal-blue \u2014 like dark stormy ocean water at dusk, dusky and slightly desaturated, with more blue than green, verging on charcoal darkness.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#2a3f4d",
+    "score": 4.91
+   }
+  }
+ },
+ {
+  "hex": "#6d5433",
+  "description": "A muted, medium-dark olive brown\u2014like dried tobacco leaves or aged mustard mixed with gray-brown earth. Warm, dusty, and slightly murky green-brown undertone.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6b5b3a",
+    "score": 9.48
+   }
+  }
+ },
+ {
+  "hex": "#56bae1",
+  "description": "A bright, clear sky blue with a touch of cornflower vibrancy\u2014medium-light in tone, cheerful and cool, like a sunny midday sky.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6495ed",
+    "score": 6.73
+   }
+  }
+ },
+ {
+  "hex": "#6d354f",
+  "description": "A deep, muted plum with dusky rose undertones\u2014dark purplish-magenta, low brightness, leaning cool yet slightly warm, like aged wine or shadowed berries.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b2e39",
+    "score": 8.65
+   }
+  }
+ },
+ {
+  "hex": "#d26a7b",
+  "description": "A dusty rose pink with warm coral undertones\u2014medium-dark in value, moderately saturated, like faded raspberry or antique mauve blended with soft red.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b5695c",
+    "score": 7.95
+   }
+  }
+ },
+ {
+  "hex": "#52807e",
+  "description": "A deep, muted purple with grayish undertones\u2014like dark eggplant or plum, blending violet and gray for a rich, dusky, low-saturation hue.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b3b4d",
+    "score": 3.43
+   }
+  }
+ },
+ {
+  "hex": "#dca191",
+  "description": "A warm, dusty rose-tan color\u2014muted pinkish-brown with soft coral undertones, like faded terracotta clay mixed with pale peach, gentle and earthy rather than vivid.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#c08a7d",
+    "score": 9.04
+   }
+  }
+ },
+ {
+  "hex": "#276e71",
+  "description": "A deep, muted teal green-blue, like the color of a pine forest lake at dusk\u2014calm, cool, and slightly dark with a subtle grayish undertone.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#2f4f4f",
+    "score": 8.29
+   }
+  }
+ },
+ {
+  "hex": "#8e5865",
+  "description": "A muted, dusty mauve-plum shade \u2014 a grayish purple-pink with brownish undertones, like faded wine mixed with dusty rose, medium-dark in tone.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b6570",
+    "score": 9.39
+   }
+  }
+ },
+ {
+  "hex": "#719156",
+  "description": "A muted, earthy medium green with a grayish undertone \u2014 like moss or sage growing on weathered stone, soft and natural rather than vivid or bright.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a9a7e",
+    "score": 8.57
+   }
+  }
+ },
+ {
+  "hex": "#592f70",
+  "description": "A deep, dusky purple with muted violet undertones\u2014dark and rich, like ripe eggplant or twilight sky, leaning slightly toward blue rather than red.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b3b5c",
+    "score": 8.68
+   }
+  }
+ },
+ {
+  "hex": "#c4c582",
+  "description": "A muted, dusty yellow-green, like faded olive or sage with a warm khaki undertone \u2014 soft, grayish, and gently earthy rather than vibrant.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b5ac7c",
+    "score": 8.86
+   }
+  }
+ },
+ {
+  "hex": "#4a5d7e",
+  "description": "A muted, dusty blue-gray with a hint of slate, like a stormy twilight sky. Medium-dark in tone, cool and softly desaturated overall.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#5a6b7b",
     "score": 8.76
    }
   }
  },
  {
-  "hex": "#4d2b80",
-  "description": "Deep royal purple, muted",
-  "budget": 5,
+  "hex": "#693e1c",
+  "description": "A deep, warm brown with earthy olive undertones\u2014like dark roasted coffee mixed with a hint of muted golden bronze. Rich, cozy, and forest-like.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#4b3b6b",
-    "score": 8.89
+    "hex": "#4a3b22",
+    "score": 8.22
    }
   }
  },
  {
-  "hex": "#254e80",
-  "description": "Deep muted navy blue",
-  "budget": 5,
+  "hex": "#4fab61",
+  "description": "A medium, moderately bright green with a fresh, leafy quality\u2014like grass or foliage in spring\u2014balanced between yellow and blue, neither too dark nor too pale.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#1f2a44",
-    "score": 7.68
+    "hex": "#5cb85c",
+    "score": 9.42
    }
   }
  },
  {
-  "hex": "#249e56",
-  "description": "Deep emerald green, medium brightness.",
-  "budget": 5,
+  "hex": "#765130",
+  "description": "A medium-dark, warm brown with reddish-orange undertones\u2014like toasted chestnut, coffee grounds, or rich tanned leather. Earthy, muted, and cozy in feeling.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#046307",
-    "score": 5.71
+    "hex": "#8b5a3c",
+    "score": 9.24
    }
   }
  },
  {
-  "hex": "#675032",
-  "description": "Dark muted earthy brown",
-  "budget": 5,
+  "hex": "#5c4cae",
+  "description": "A muted medium purple with a blue undertone\u2014like a dusty indigo violet, cool and slightly grayed, similar to periwinkle mixed with deep plum.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#4a3728",
-    "score": 8.45
+    "hex": "#7a6fa3",
+    "score": 7.85
    }
   }
  },
  {
-  "hex": "#5c9a8d",
-  "description": "Muted teal green, medium-dark",
-  "budget": 5,
+  "hex": "#70ac8e",
+  "description": "A muted medium teal-green, like sage mixed with seafoam \u2014 soft, slightly grayish, with a calm, natural, botanical feel reminiscent of eucalyptus leaves.",
+  "budget": 30,
   "describer": "anthropic:claude-sonnet-5",
   "guesses": {
    "anthropic:claude-sonnet-5": {
-    "hex": "#4a7a72",
+    "hex": "#8fa894",
+    "score": 8.65
+   }
+  }
+ },
+ {
+  "hex": "#96ad62",
+  "description": "A muted, medium olive-green with a soft yellowish undertone \u2014 think dried sage leaves or moss under gentle sunlight, gentle and earthy, neither too bright nor dark.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a9a5b",
+    "score": 9.28
+   }
+  }
+ },
+ {
+  "hex": "#98af53",
+  "description": "A muted, medium olive green with soft yellowish undertones \u2014 like sage brushed with khaki. Earthy, gentle, slightly dusty, reminiscent of dried herbs or weathered leaves.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#a3a56d",
+    "score": 8.83
+   }
+  }
+ },
+ {
+  "hex": "#47c1a7",
+  "description": "A cool medium teal-green, like a blend of turquoise and emerald, moderately bright and softly saturated, evoking calm ocean or sea-glass tones.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#3fa796",
+    "score": 8.98
+   }
+  }
+ },
+ {
+  "hex": "#8255b3",
+  "description": "A medium-toned purple with a strong blue undertone\u2014rich, saturated, and slightly muted, like grape or amethyst, sitting between violet and royal purple.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7b4fa6",
+    "score": 9.75
+   }
+  }
+ },
+ {
+  "hex": "#599ac9",
+  "description": "A medium-toned periwinkle purple with a soft blue undertone\u2014cool, gentle, and moderately saturated, like a muted blend of violet and blue, neither too dark nor too light.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8181c7",
+    "score": 6.68
+   }
+  }
+ },
+ {
+  "hex": "#7ac34f",
+  "description": "A fresh, medium-bright grass green with a slightly yellowish tint\u2014like spring lawn foliage or a ripe lime leaf, vivid and lively but not neon.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7cb342",
+    "score": 9.47
+   }
+  }
+ },
+ {
+  "hex": "#557b6d",
+  "description": "A muted, grayish medium-dark green with a subtle blue undertone \u2014 like sage mixed with slate, evoking weathered forest moss or dusty eucalyptus leaves.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6b8878",
+    "score": 9.15
+   }
+  }
+ },
+ {
+  "hex": "#236e5b",
+  "description": "A deep teal green, dark and muted, blending blue and green tones with a subtle earthy richness\u2014like a shadowed forest pond or dark pine woods.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#1e4d4a",
+    "score": 7.88
+   }
+  }
+ },
+ {
+  "hex": "#a53491",
+  "description": "A deep, muted raspberry-magenta pink, dark and dusty rather than bright, with a warm reddish-purple undertone\u2014like crushed berries mixed with wine.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7a3b4e",
+    "score": 6.55
+   }
+  }
+ },
+ {
+  "hex": "#7c275e",
+  "description": "A deep, dark magenta-purple, like ripe plum or dark orchid mixed with wine red \u2014 rich, muted, and slightly dusky, leaning more purple than pink.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4d1f3d",
+    "score": 8.47
+   }
+  }
+ },
+ {
+  "hex": "#44e237",
+  "description": "A vivid, bright grass green, leaning slightly toward lime, with strong saturation and medium-high brightness \u2014 like a fresh spring leaf or glowing neon foliage.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7cfc00",
+    "score": 8.55
+   }
+  }
+ },
+ {
+  "hex": "#546a44",
+  "description": "A deep, muted olive green with grayish undertones\u2014like moss growing on old stone, or dried sage leaves in dim light. Earthy and subdued, leaning dark forest green.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#5b6b4d",
+    "score": 9.72
+   }
+  }
+ },
+ {
+  "hex": "#754054",
+  "description": "A deep, dusky mulberry-plum shade\u2014muted purplish-red with brownish undertones, dark and warm, like a faded wine or crushed berry tone.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7b3f53",
+    "score": 9.88
+   }
+  }
+ },
+ {
+  "hex": "#3f69bf",
+  "description": "A medium-toned, moderately bright blue with a slight purple undertone \u2014 like a classic denim or cornflower blue, cool and clear rather than muted.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4169cb",
+    "score": 9.89
+   }
+  }
+ },
+ {
+  "hex": "#6e230c",
+  "description": "A deep, dark reddish-brown, like burnt rust or charred terracotta clay, with a warm earthy undertone bordering on chocolate mahogany.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#5c3a2e",
+    "score": 8.39
+   }
+  }
+ },
+ {
+  "hex": "#e180a1",
+  "description": "A medium-bright pink with a rosy, warm undertone\u2014like a vivid bubblegum or carnation pink, slightly muted, blending into a soft magenta-rose hue.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#e75480",
+    "score": 8.6
+   }
+  }
+ },
+ {
+  "hex": "#9e8d51",
+  "description": "A muted, medium olive-gold hue\u2014like dried mustard or tarnished brass. Warm and earthy, with grayish undertones, somewhat dusty rather than vibrant. Think aged brass hardware or faded khaki fabric.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#a68a4a",
+    "score": 9.63
+   }
+  }
+ },
+ {
+  "hex": "#b295d8",
+  "description": "A soft, muted lavender-purple \u2014 gentle and dusty, like pale grape or light orchid, with a cool, slightly grayish undertone. Calming and delicate in feel.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b39eb5",
+    "score": 7.65
+   }
+  }
+ },
+ {
+  "hex": "#89a21a",
+  "description": "A medium-dark yellowish green, like olive leaves or dried moss\u2014somewhat muted and earthy, leaning more green than yellow, with moderate brightness.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6b8e4e",
+    "score": 7.51
+   }
+  }
+ },
+ {
+  "hex": "#2da830",
+  "description": "A medium-bright, slightly yellowish green, like fresh grass or a green traffic light\u2014vivid, earthy, and moderately saturated with a clean, leafy quality.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4caf50",
+    "score": 9.54
+   }
+  }
+ },
+ {
+  "hex": "#50b7ac",
+  "description": "A medium-toned teal green, blending cool blue and fresh green with a soft, muted brightness \u2014 like the color of shallow tropical seawater.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#3ea8a0",
+    "score": 9.5
+   }
+  }
+ },
+ {
+  "hex": "#1763bc",
+  "description": "A deep, rich blue with a slight violet undertone\u2014like a saturated royal blue, dark and vivid but not quite navy, leaning toward indigo.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#2d2b8f",
+    "score": 5.97
+   }
+  }
+ },
+ {
+  "hex": "#7a15c9",
+  "description": "A vivid, rich purple with strong blue undertones\u2014like deep royal violet or amethyst, bold and saturated, leaning more toward purple than pink or blue.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7d3fd6",
+    "score": 9.09
+   }
+  }
+ },
+ {
+  "hex": "#75624e",
+  "description": "A warm, muted medium brown with a hint of caramel or coffee-with-cream tone\u2014earthy, slightly rosy, like weathered leather or toasted wood.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#a0785a",
+    "score": 8.01
+   }
+  }
+ },
+ {
+  "hex": "#d27673",
+  "description": "A muted, dusty rose pink with warm coral undertones\u2014medium-toned, softly grayish, evoking faded terracotta or antique brick blended with pink clay.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#c48a7e",
+    "score": 8.92
+   }
+  }
+ },
+ {
+  "hex": "#5e6716",
+  "description": "A deep, muted olive green with a subtle brownish undertone \u2014 earthy and dark, like dried moss or aged khaki fabric in dim light.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4a4a2f",
+    "score": 7.66
+   }
+  }
+ },
+ {
+  "hex": "#df89d3",
+  "description": "A soft, muted orchid pink with a gentle lavender undertone\u2014light and pastel, warm yet slightly cool, like a pale purple-tinted rose petal.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#d8a7c4",
+    "score": 8.06
+   }
+  }
+ },
+ {
+  "hex": "#5da95b",
+  "description": "A medium, fresh grass green with a moderate yellowish undertone\u2014like the color of green apples or spring leaves, neither too dark nor too pastel, pleasantly vibrant.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7cb342",
+    "score": 8.52
+   }
+  }
+ },
+ {
+  "hex": "#1db461",
+  "description": "A vivid medium green, leaning slightly toward emerald, with fresh, grassy brightness and moderate saturation\u2014like a lively spring leaf under clear daylight, neither too dark nor too pale.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4caf50",
+    "score": 9.33
+   }
+  }
+ },
+ {
+  "hex": "#278343",
+  "description": "A deep, dark blue-violet with a hint of navy \u2014 like twilight sky just after sunset, muted and rich, verging almost toward charcoal.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#2c2a4a",
+    "score": 2.71
+   }
+  }
+ },
+ {
+  "hex": "#da254b",
+  "description": "A deep, vibrant raspberry-crimson red with a strong pink undertone\u2014rich, warm, and slightly dark, like ripe pomegranate seeds or a bold rose petal.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#c41e5a",
+    "score": 8.74
+   }
+  }
+ },
+ {
+  "hex": "#337a89",
+  "description": "A deep muted teal, blending dark blue and green with a slightly dusty, ocean-like quality \u2014 calm, cool, and somewhat shadowed rather than bright.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#2f6e6e",
+    "score": 8.82
+   }
+  }
+ },
+ {
+  "hex": "#b0c23e",
+  "description": "A muted yellow-green, like olive-chartreuse, medium-light in tone, moderately saturated \u2014 think of a dried mustard-green leaf or unripe pear skin under soft light.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b5b35a",
+    "score": 9.03
+   }
+  }
+ },
+ {
+  "hex": "#8f4331",
+  "description": "A warm, muted burnt sienna\u2014rusty reddish-brown, like terracotta clay mixed with a touch of dark orange, evoking autumn leaves or aged brick.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#a0522d",
+    "score": 8.9
+   }
+  }
+ },
+ {
+  "hex": "#827ed4",
+  "description": "A vivid, medium-toned purple with a strong blue undertone\u2014like bright periwinkle or vibrant lavender-violet, saturated and clear rather than dusty or pale.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a5fe0",
     "score": 8.26
+   }
+  }
+ },
+ {
+  "hex": "#846bcf",
+  "description": "A moderate, muted purple-blue \u2014 like periwinkle or soft violet with a cool blue undertone, medium-bright, similar to lavender-indigo twilight sky.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a7fbf",
+    "score": 8.91
+   }
+  }
+ },
+ {
+  "hex": "#912a31",
+  "description": "A deep, dark brownish-red, like dried blood or aged burgundy wine\u2014muted, dusky crimson with heavy dark undertones, almost blackish at first glance.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#3b0a1a",
+    "score": 6.43
+   }
+  }
+ },
+ {
+  "hex": "#54843c",
+  "description": "A deep, muted brownish-red, like burnt terracotta or dark rust \u2014 warm, earthy, and slightly desaturated, reminiscent of aged clay or dried brick dust.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b4513",
+    "score": 3.07
+   }
+  }
+ },
+ {
+  "hex": "#aa9b41",
+  "description": "A muted olive-gold, like dried mustard or aged brass. Warm and earthy, medium-dark, slightly desaturated yellow-green with a dusty, autumnal quality.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#a38a2d",
+    "score": 9.27
+   }
+  }
+ },
+ {
+  "hex": "#55dc48",
+  "description": "A vivid, bright grass green with a fresh, slightly lime-leaning tone \u2014 lively and saturated, like a glowing spring leaf or bright green paint.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4cd137",
+    "score": 9.76
+   }
+  }
+ },
+ {
+  "hex": "#73864c",
+  "description": "A muted, earthy olive-brown, like dried moss or tree bark. It's a warm, grayish green-brown, somewhat dark and dusty, reminiscent of forest undergrowth or aged leather.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6b5b3a",
+    "score": 5.94
+   }
+  }
+ },
+ {
+  "hex": "#93228e",
+  "description": "A medium-dark purple with a soft, muted quality\u2014blending rich violet and gentle magenta tones, somewhat like a dusty grape or orchid petal in dim light.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b5f8c",
+    "score": 7.75
+   }
+  }
+ },
+ {
+  "hex": "#9c2ddd",
+  "description": "A vivid, saturated purple with a strong reddish-violet undertone\u2014like a bright grape or magenta-tinged violet, bold and rich, leaning cool rather than warm.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#9932cc",
+    "score": 9.82
+   }
+  }
+ },
+ {
+  "hex": "#ae2b50",
+  "description": "A deep, muted raspberry-pink with a red-wine undertone\u2014dark and rich, leaning toward burgundy but still clearly pink, like crushed berries mixed with a touch of plum.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8e3a4a",
+    "score": 9.17
+   }
+  }
+ },
+ {
+  "hex": "#0f7c8b",
+  "description": "A deep teal blue-green, muted and medium-dark in tone \u2014 like the color of ocean water in shadow, calm and slightly desaturated.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#2f6664",
+    "score": 8.36
+   }
+  }
+ },
+ {
+  "hex": "#acbc82",
+  "description": "A muted olive-khaki green with a soft grayish tan undertone \u2014 like dried sage grass or faded military canvas, gentle and earthy, medium-light in value.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#a3a380",
+    "score": 8.44
+   }
+  }
+ },
+ {
+  "hex": "#91d8cd",
+  "description": "A soft, pale mint green with a cool, gentle aqua tint\u2014light and refreshing, like a pastel seafoam or diluted turquoise shade.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#aaf0d1",
+    "score": 8.61
+   }
+  }
+ },
+ {
+  "hex": "#985a77",
+  "description": "A muted, dusty mauve-brown \u2014 like faded plum mixed with warm gray, somewhat dark and soft, with a subtle rosy undertone. Cozy, antique, understated.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b6f6f",
+    "score": 7.35
+   }
+  }
+ },
+ {
+  "hex": "#94c27f",
+  "description": "A soft, muted medium green with a slightly yellow undertone\u2014think sage or fresh pea leaves, gentle and earthy rather than vivid or bright.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8fae7a",
+    "score": 9.25
+   }
+  }
+ },
+ {
+  "hex": "#77e487",
+  "description": "A bright, vivid spring green with a light, fresh quality\u2014like new grass or a lime leaf lit by sunlight, with a slight cool bluish undertone.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#66ff66",
+    "score": 8.75
+   }
+  }
+ },
+ {
+  "hex": "#7a523d",
+  "description": "A warm, medium-dark brown with a slight reddish tone\u2014like coffee mixed with a touch of clay or terracotta, earthy and muted, similar to worn leather.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b5a2b",
+    "score": 8.72
+   }
+  }
+ },
+ {
+  "hex": "#55b53d",
+  "description": "A medium-toned, earthy green with a hint of yellow warmth\u2014like fresh grass or olive leaves, moderately saturated and neither too light nor too dark.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#7a9a4c",
+    "score": 7.96
+   }
+  }
+ },
+ {
+  "hex": "#4b1271",
+  "description": "A deep, dark violet-purple, like a ripe eggplant or dark grape skin, with a rich, muted, slightly royal purple tone.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b0082",
+    "score": 9.64
+   }
+  }
+ },
+ {
+  "hex": "#617e34",
+  "description": "A muted olive green, like dried moss or dusty forest leaves \u2014 earthy, slightly dark, with a subtle yellowish-brown undertone.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6b6b3a",
+    "score": 8.13
+   }
+  }
+ },
+ {
+  "hex": "#256634",
+  "description": "A deep, muted forest green\u2014dark and earthy, like pine needles in shadow, with only a faint warmth and almost no blue or red brightness showing through.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#2e3b2c",
+    "score": 6.48
+   }
+  }
+ },
+ {
+  "hex": "#b8282d",
+  "description": "A deep, muted brick red with a slight brownish undertone \u2014 like a dark tomato or dried clay, warm and somewhat dusty, leaning toward maroon.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b3a3a",
+    "score": 8.62
+   }
+  }
+ },
+ {
+  "hex": "#bb6e53",
+  "description": "A warm, muted terracotta brown with rosy orange undertones\u2014like sun-baked clay or a soft, dusty cinnamon-rust hue.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b36a5e",
+    "score": 9.31
+   }
+  }
+ },
+ {
+  "hex": "#d86a64",
+  "description": "A warm, muted coral red \u2014 soft terracotta-pink with gentle orange undertones, like a dusty salmon or faded brick-red, cozy and earthy rather than bright or vivid.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#c97b63",
+    "score": 8.81
+   }
+  }
+ },
+ {
+  "hex": "#c174bf",
+  "description": "A soft, muted orchid-pink with a purple undertone \u2014 medium-light in value, dusty and slightly grayish, like faded lilac blended with mauve.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#c48fa0",
+    "score": 6.89
+   }
+  }
+ },
+ {
+  "hex": "#653a83",
+  "description": "A deep, muted purple with a grayish undertone\u2014like dark plum or eggplant skin, blended with a touch of charcoal for richness and depth.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4b3b4e",
+    "score": 7.33
+   }
+  }
+ },
+ {
+  "hex": "#24b141",
+  "description": "A vivid, energetic green, like fresh spring grass or a bright lime leaf\u2014saturated, medium-bright, leaning slightly toward emerald rather than yellow.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#32cd32",
+    "score": 8.73
+   }
+  }
+ },
+ {
+  "hex": "#9a6b97",
+  "description": "A muted, dusty purple with grayish undertones\u2014like a soft lavender-mauve, gentle and slightly faded, reminiscent of dried lilac flowers or antique violet fabric.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b7d8b",
+    "score": 7.88
+   }
+  }
+ },
+ {
+  "hex": "#1cd93c",
+  "description": "A vivid, energetic medium green with a bright, fresh quality\u2014like new spring grass or a bright leaf, leaning slightly toward lime but not yellow.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#4cbb17",
+    "score": 8.53
+   }
+  }
+ },
+ {
+  "hex": "#6a5285",
+  "description": "A muted medium purple with a grayish undertone\u2014like dusty lavender mixed with a touch of charcoal, evoking soft twilight or faded violet blossoms.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a7b94",
+    "score": 7.26
+   }
+  }
+ },
+ {
+  "hex": "#b3dc1e",
+  "description": "A vivid, energetic yellow-green, like fresh lime or new spring leaves\u2014bright, slightly acidic-looking, with strong saturation and medium-high lightness.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#a4d63e",
+    "score": 9.57
+   }
+  }
+ },
+ {
+  "hex": "#758add",
+  "description": "A medium-toned periwinkle blue-purple, soft and slightly muted, like a dusty blend of blue and violet with a gentle grayish undertone\u2014reminiscent of lavender fields at twilight.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a87c0",
+    "score": 8.64
+   }
+  }
+ },
+ {
+  "hex": "#3183b2",
+  "description": "A medium-toned blue with a hint of violet\u2014rich and saturated, like a deep cornflower or periwinkle blue, neither too dark nor too light.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6495ed",
+    "score": 7.78
+   }
+  }
+ },
+ {
+  "hex": "#897ebb",
+  "description": "A muted, dusty medium purple with soft blue-violet undertones\u2014gentle and slightly grayed, like faded lavender mixed with a touch of periwinkle.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8a7ca8",
+    "score": 9.43
+   }
+  }
+ },
+ {
+  "hex": "#758331",
+  "description": "A muted, earthy olive green with a slightly yellowish undertone\u2014like dried moss or khaki foliage, medium-dark in tone, and noticeably more green than brown or gray.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#6b6b3a",
+    "score": 8.35
+   }
+  }
+ },
+ {
+  "hex": "#c09046",
+  "description": "A warm, medium-toned golden brown, like tanned leather or toasted caramel\u2014earthy, muted amber with a soft brownish undertone.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#b08050",
+    "score": 8.91
+   }
+  }
+ },
+ {
+  "hex": "#308acf",
+  "description": "A vivid medium blue, bright and clear like a sunny sky, leaning slightly toward azure with strong saturation and moderate lightness\u2014neither pastel nor dark navy.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#3399ee",
+    "score": 9.34
+   }
+  }
+ },
+ {
+  "hex": "#a058a9",
+  "description": "A medium-toned, dusty purple with a hint of magenta\u2014somewhere between orchid and grape, softly muted rather than vivid, with balanced warmth and coolness.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#9370a0",
+    "score": 8.7
+   }
+  }
+ },
+ {
+  "hex": "#4f1767",
+  "description": "A deep, dark purple with a rich violet undertone\u2014like a dark grape or eggplant skin, dusky and intense with almost no brightness.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#3b0a45",
+    "score": 9.07
+   }
+  }
+ },
+ {
+  "hex": "#18af51",
+  "description": "A vivid medium green, like fresh grass or emerald leaves, with a bright, slightly cool, saturated tone and moderate brightness\u2014leaning toward jade or clover green.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#3cb371",
+    "score": 9.37
+   }
+  }
+ },
+ {
+  "hex": "#7cbd74",
+  "description": "A soft, medium-toned green with a fresh, grassy quality\u2014leaning slightly yellow, gentle and muted rather than vivid, similar to spring foliage or sage-lime.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8fbc6b",
+    "score": 9.45
+   }
+  }
+ },
+ {
+  "hex": "#5a668a",
+  "description": "A muted, dusty slate blue with grayish undertones \u2014 medium-dark in value, cool and softly desaturated, reminiscent of a stormy twilight sky.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#5c6b7a",
+    "score": 8.55
+   }
+  }
+ },
+ {
+  "hex": "#96136f",
+  "description": "A muted, dusty mauve-purple with a rosy undertone\u2014medium-dark in depth, gently grayed rather than vivid, like faded plum or dried lavender petals blended with soft brown.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#8b6f7d",
+    "score": 6.18
+   }
+  }
+ },
+ {
+  "hex": "#a17e6e",
+  "description": "A warm, muted grayish-brown, like taupe or light coffee with cream mixed in \u2014 soft and earthy, similar to a dusty terracotta or clay tone.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#a38c7a",
+    "score": 9.13
+   }
+  }
+ },
+ {
+  "hex": "#d94d89",
+  "description": "A vivid, medium-dark pink with a rosy magenta undertone\u2014somewhere between hot pink and raspberry, warm and saturated, leaning slightly purple rather than orange.",
+  "budget": 30,
+  "describer": "anthropic:claude-sonnet-5",
+  "guesses": {
+   "anthropic:claude-sonnet-5": {
+    "hex": "#d6339a",
+    "score": 8.99
    }
   }
  }

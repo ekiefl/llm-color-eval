@@ -303,8 +303,8 @@ def hue_scatter_svg(db_path: Path) -> str:
         hue = colorsys.rgb_to_hsv(r, g, b)[0] * 360
         points.append((hue, mean, hex_code))
 
-    width, height = 720, 420
-    left, right, top, bottom = 60, 20, 30, 60
+    width, height = 720, 600
+    left, right, top, bottom = 110, 75, 45, 100
     y_min, y_max = 2.0, 10.0
 
     def sx(hue: float) -> float:
@@ -320,36 +320,23 @@ def hue_scatter_svg(db_path: Path) -> str:
     for tick in (2, 4, 6, 8, 10):
         y = sy(tick)
         parts.append(f'<line x1="{left}" y1="{y}" x2="{width - right}" y2="{y}" stroke="{GRID}"/>')
-        parts.append(svg_text(left - 10, y + 4, str(tick), 12, INK_2, "end", "400"))
-    for tick in range(0, 361, 60):
-        parts.append(svg_text(sx(tick), height - bottom + 22, f"{tick}°", 12, INK_2, "middle", "400"))
-    parts.append(svg_text(left + (width - left - right) / 2, height - 14, "hue", 13, INK_2, "middle", "400"))
+        parts.append(svg_text(left - 14, y + 10, str(tick), 32, INK_2, "end", "400"))
+    for tick in range(0, 361, 120):
+        parts.append(svg_text(sx(tick), height - bottom + 42, f"{tick}°", 32, INK_2, "middle", "400"))
+    parts.append(svg_text(left + (width - left - right) / 2, height - 18, "hue", 36, INK_2, "middle", "400"))
     parts.append(
-        f'<text x="18" y="{top + (height - top - bottom) / 2}" font-family="{FONT}" font-size="13"'
+        f'<text x="34" y="{top + (height - top - bottom) / 2}" font-family="{FONT}" font-size="36"'
         f' fill="{INK_2}" text-anchor="middle"'
-        f' transform="rotate(-90 18 {top + (height - top - bottom) / 2})">mean score (0–10)</text>'
+        f' transform="rotate(-90 34 {top + (height - top - bottom) / 2})">mean score (0–10)</text>'
     )
     for hue, mean, hex_code in points:
-        parts.append(f'<circle cx="{sx(hue):.1f}" cy="{sy(mean):.1f}" r="3" fill="{hex_code}" fill-opacity="0.75"/>')
+        parts.append(f'<circle cx="{sx(hue):.1f}" cy="{sy(mean):.1f}" r="6.5" fill="{hex_code}" fill-opacity="0.55"/>')
     trend = []
     for h in range(0, 361, 3):
         window = [m for hue, m, _ in points if min(abs(hue - h), 360 - abs(hue - h)) <= 15]
         trend.append((h, statistics.mean(window)))
     path = " ".join(f"{'M' if i == 0 else 'L'} {sx(h):.1f} {sy(m):.1f}" for i, (h, m) in enumerate(trend))
-    parts.append(f'<path d="{path}" fill="none" stroke="{INK}" stroke-width="2.5"/>')
-    valley = min(trend, key=lambda t: t[1])
-    parts.append(svg_text(sx(valley[0]), sy(valley[1]) + 30, "the green valley", 13, INK, "middle", "600"))
-    parts.append(
-        svg_text(
-            width - right,
-            18,
-            f"{len(points):,} colors × 3 trials · Sonnet 5, five-word budget · line: ±15° rolling mean",
-            11,
-            INK_2,
-            "end",
-            "400",
-        )
-    )
+    parts.append(f'<path d="{path}" fill="none" stroke="{INK}" stroke-width="3.5"/>')
     parts.append("</svg>")
     return "".join(parts)
 
